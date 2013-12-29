@@ -1,0 +1,49 @@
+#Section1
+{
+	
+	height: 715px;
+background-color: blue;
+}
+#Section2
+{
+	height: 715px;
+background-color: red;
+}
+#Section3
+{
+	height: 715px;
+background-color: yellow;
+}
+#Section4
+{
+	height: 715px;
+background-color: black;
+}
+.Sec1_imgs
+{
+	height: 250px;
+	width: 250px;
+}
+h1
+{
+	margin-top: 50px;
+	font-size: 72px;
+}
+
+.Sect1_Arrows
+{	  
+	padding-left:0px;
+	padding-right;
+	font-size: 40px;
+	display: block;
+	margin-right: 0px;
+	margin-left: 0px;
+}
+.Sect1_Arrows:hover
+{
+	color: red;
+}
+#Sec2_Link
+{
+	text-decoration: none;
+}
