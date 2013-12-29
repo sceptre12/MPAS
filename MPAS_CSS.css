@@ -6,7 +6,7 @@ background-color: blue;
 }
 #Section2
 {
-	height: 715px;
+	height: 300px;
 background-color: red;
 }
 #Section3
@@ -46,4 +46,9 @@ h1
 #Sec2_Link
 {
 	text-decoration: none;
+}
+#Sect3_img1
+{
+	height: 500px;
+	width: 550px;
 }
