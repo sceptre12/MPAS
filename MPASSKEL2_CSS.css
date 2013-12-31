@@ -1,0 +1,148 @@
+#Section1
+{
+	
+	min-height: 710px;
+background-color: blue;
+}
+#Section2
+{
+	
+	min-height: 550px;
+background-color: red;
+}
+#Section3
+{
+	
+	height: 715px;
+background-color: yellow;
+}
+#Section4
+{
+	
+	height: 715px;
+background-color: black;
+}
+.Sec1_imgs
+{
+
+	height: 250px;
+	width: 250px;
+}
+h1 /*regular style of text*/
+{
+	margin-top: 50px;
+	font-size: 72px; 
+
+}
+.Sect1_ButtAlign
+{
+	margin-top: 150px;
+}
+#Sec1_Title 
+{
+ margin-top: 230px;
+ margin-bottom: 200px;
+}
+
+
+
+.Sect1_Arrows
+{	  
+	padding-left:0px;
+	padding-right;
+	font-size: 40px;
+	display: block;
+	margin-right: 0px;
+	margin-left: 0px;
+}
+.Sect1_Arrows:hover
+{
+	color: red;
+}
+#Sec2_Link
+{
+	text-decoration: none;
+}
+#Sect3_img1
+{
+	
+	max-height: 500px;
+	max-width: 550px;
+	height: 500px;
+	width: 550px;
+}
+
+/*Media queries section*/
+
+@media only screen and (max-width: 1080px)
+{
+	h1
+	{
+		font-size: 62px;
+	}
+	#Sec1_Title 
+	{
+	 
+	 margin-bottom: 220px;
+	}
+}
+@media only screen and (max-width: 1000px)
+{
+	h1
+	{
+		font-size: 55px;
+	}
+	#Sec1_Title 
+	{
+	 
+	 margin-bottom: 239px;
+	}
+}
+@media only screen and (max-width: 875px)
+{
+	h1
+	{
+		font-size: 45px;
+	}
+	#Sec1_Title 
+	{
+	 
+	 margin-bottom: 259px;
+	}
+}
+@media only screen and (max-width: 675px)
+{
+	h1
+	{
+		font-size: 35px;
+	}
+	#Sec1_Title 
+	{
+	 
+	 margin-bottom: 282px;
+	}
+}
+@media only screen and (max-width: 580px)
+{
+	h1
+	{
+		font-size: 25px;
+	}
+	#Sec1_Title 
+	{
+	 
+	 margin-bottom: 304px;
+	}
+}
+@media only screen and (max-width: 380px)
+{
+	h1
+	{
+		font-size: 20px;
+	}
+	#Sec1_Title 
+	{
+	 
+	 margin-bottom: 314px;
+	}
+}
