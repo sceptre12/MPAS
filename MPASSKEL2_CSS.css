@@ -1,20 +1,20 @@
-#Section1
+/*#Section1
 {
 	
 	min-height: 710px;
 background-color: blue;
+}*/
+#Section1
+{
+	
+	min-height: 710px;
+background-color: #00008B;
 }
 #Section2
 {
 	
-	min-height: 550px;
-background-color: red;
-}
-#Section3
-{
-	
 	height: 715px;
-background-color: yellow;
+background-color: #e1dcd2;
 }
 #Section4
 {
@@ -32,48 +32,59 @@ h1 /*regular style of text*/
 {
 	margin-top: 50px;
 	font-size: 72px; 
+	color: #00008B;
 
 }
 .Sect1_ButtAlign
 {
-	margin-top: 150px;
+	margin-top: 20px;
 }
 #Sec1_Title 
 {
- margin-top: 230px;
- margin-bottom: 200px;
+	background-color: #DAA520;
+ 	margin-bottom: 20px;
 }
 
+#SectionCent
+{
+	margin: 0px;
+}
+#Sec1Color
+{
+	color: #DAA520;
 
+}
 
 .Sect1_Arrows
 {	  
-	padding-left:0px;
-	padding-right;
+	padding: 0px;
+	margin: 0px;
 	font-size: 40px;
 	display: block;
-	margin-right: 0px;
-	margin-left: 0px;
+	
 }
 .Sect1_Arrows:hover
 {
-	color: red;
+	color: #DAA520;
 }
-#Sec2_Link
+#Sec1_Link
 {
+
 	text-decoration: none;
 }
-#Sect3_img1
+#Sect2_img1
 {
 	
-	max-height: 500px;
-	max-width: 550px;
-	height: 500px;
-	width: 550px;
+	height: 350px;
+	width: 400px;
+	float: left;
+	margin-right: 5px;
+
 }
 
 /*Media queries section*/
-
+/*for these first two media queries play around with them so that the title only takes up two lines do this by
+increasing or reducing the size of the fonts*/
 @media only screen and (max-width: 1080px)
 {
 	h1
@@ -83,7 +94,7 @@ h1 /*regular style of text*/
 	#Sec1_Title 
 	{
 	 
-	 margin-bottom: 220px;
+	 margin-bottom: 40px;
 	}
 }
 @media only screen and (max-width: 1000px)
@@ -95,7 +106,7 @@ h1 /*regular style of text*/
 	#Sec1_Title 
 	{
 	 
-	 margin-bottom: 239px;
+	 margin-bottom: 40px;
 	}
 }
 @media only screen and (max-width: 875px)
@@ -107,7 +118,7 @@ h1 /*regular style of text*/
 	#Sec1_Title 
 	{
 	 
-	 margin-bottom: 259px;
+	 margin-bottom: 40px;
 	}
 }
 @media only screen and (max-width: 675px)
@@ -119,7 +130,7 @@ h1 /*regular style of text*/
 	#Sec1_Title 
 	{
 	 
-	 margin-bottom: 282px;
+	 margin-bottom: 40px;
 	}
 }
 @media only screen and (max-width: 580px)
@@ -131,7 +142,7 @@ h1 /*regular style of text*/
 	#Sec1_Title 
 	{
 	 
-	 margin-bottom: 304px;
+	 margin-bottom: 40px;
 	}
 }
 @media only screen and (max-width: 380px)
@@ -143,6 +154,6 @@ h1 /*regular style of text*/
 	#Sec1_Title 
 	{
 	 
-	 margin-bottom: 314px;
+	 margin-bottom: 40px;
 	}
 }
