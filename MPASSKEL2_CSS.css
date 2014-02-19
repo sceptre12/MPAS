@@ -4,25 +4,26 @@
 	min-height: 710px;
 background-color: blue;
 }*/
-#Section1
+/*This section is for the MBRS & MARC U Star Home page*/
+#HomeMS_Section1
 {
 	
 	min-height: 710px;
 background-color: rgba(0, 41, 88, 0.901961);
 }
-#Section2
+#HomeMS_Section2
 {
 	
 	height: 715px;
 background-color: #e1dcd2;
 }
-#Section4
+#HomeMS_Section4
 {
 	
 	height: 715px;
 background-color: black;
 }
-.Sec1_imgs
+.HomeMS_Sec1_imgs
 {
 
 	height: 250px;
@@ -35,27 +36,27 @@ h1 /*regular style of text*/
 	color: rgba(0, 41, 88, 0.901961);
 
 }
-.Sect1_ButtAlign
+.HomeMS_Sect1_ButtAlign
 {
 	margin-top: 20px;
 }
-#Sec1_Title 
+#HomeMS_Sec1_Title 
 {
 	background-color: rgba(226, 187, 70, 0.901961);
  	margin-bottom: 20px;
 }
 
-#SectionCent
+#HomeMS_SectionCent
 {
 	margin: 0px;
 }
-#Sec1Color
+#HomeMS_Sec1Color
 {
 	color: rgba(226, 187, 70, 0.901961);
 
 }
 
-.Sect1_Arrows
+.HomeMS_Sect1_Arrows
 {	  
 	padding: 0px;
 	margin: 0px;
@@ -63,16 +64,16 @@ h1 /*regular style of text*/
 	display: block;
 	
 }
-.Sect1_Arrows:hover
+.HomeMS_Sect1_Arrows:hover
 {
 	color: rgba(226, 187, 70, 0.901961);
 }
-#Sec1_Link
+#HomeMS_Sec1_Link
 {
 
 	text-decoration: none;
 }
-#Sect2_img1
+#HomeMS_Sect2_img1
 {
 	
 	height: 350px;
@@ -91,7 +92,7 @@ increasing or reducing the size of the fonts*/
 	{
 		font-size: 62px;
 	}
-	#Sec1_Title 
+	#HomeMS_Sec1_Title 
 	{
 	 
 	 margin-bottom: 40px;
@@ -103,7 +104,7 @@ increasing or reducing the size of the fonts*/
 	{
 		font-size: 55px;
 	}
-	#Sec1_Title 
+	#HomeMS_Sec1_Title 
 	{
 	 
 	 margin-bottom: 40px;
@@ -115,7 +116,7 @@ increasing or reducing the size of the fonts*/
 	{
 		font-size: 45px;
 	}
-	#Sec1_Title 
+	#HomeMS_Sec1_Title 
 	{
 	 
 	 margin-bottom: 40px;
@@ -127,7 +128,7 @@ increasing or reducing the size of the fonts*/
 	{
 		font-size: 35px;
 	}
-	#Sec1_Title 
+	#HomeMS_Sec1_Title 
 	{
 	 
 	 margin-bottom: 40px;
@@ -139,7 +140,7 @@ increasing or reducing the size of the fonts*/
 	{
 		font-size: 25px;
 	}
-	#Sec1_Title 
+	#HomeMS_Sec1_Title 
 	{
 	 
 	 margin-bottom: 40px;
@@ -151,7 +152,7 @@ increasing or reducing the size of the fonts*/
 	{
 		font-size: 20px;
 	}
-	#Sec1_Title 
+	#HomeMS_Sec1_Title 
 	{
 	 
 	 margin-bottom: 40px;
