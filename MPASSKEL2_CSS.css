@@ -32,7 +32,7 @@ h1 /*regular style of text*/
 {
 	margin-top: 50px;
 	font-size: 72px; 
-	color: #00008B;
+	color: rgba(0, 41, 88, 0.901961);
 
 }
 .Sect1_ButtAlign
@@ -41,7 +41,7 @@ h1 /*regular style of text*/
 }
 #Sec1_Title 
 {
-	background-color: #DAA520;
+	background-color: rgba(226, 187, 70, 0.901961);
  	margin-bottom: 20px;
 }
 
@@ -51,7 +51,7 @@ h1 /*regular style of text*/
 }
 #Sec1Color
 {
-	color: #DAA520;
+	color: rgba(226, 187, 70, 0.901961);
 
 }
 
@@ -65,7 +65,7 @@ h1 /*regular style of text*/
 }
 .Sect1_Arrows:hover
 {
-	color: #DAA520;
+	color: rgba(226, 187, 70, 0.901961);
 }
 #Sec1_Link
 {
