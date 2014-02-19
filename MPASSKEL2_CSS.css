@@ -83,6 +83,19 @@ h1 /*regular style of text*/
 
 }
 
+.HomeMS_Sect4_Pics
+{
+	width: 216px;
+	height: 356px;
+	-webkit-transistion: all 1s ease;
+	transition: all 1s ease;
+}
+.HomeMS_Sect4_Pics:hover
+{
+	-webkit-filter: grayscale(100%);
+}
+
+
 /*Media queries section*/
 /*for these first two media queries play around with them so that the title only takes up two lines do this by
 increasing or reducing the size of the fonts*/
