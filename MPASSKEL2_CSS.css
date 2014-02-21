@@ -14,7 +14,7 @@ background-color: rgba(0, 41, 88, 0.901961);
 #HomeMS_Section2
 {
 	
-	height: 715px;
+	height: 600px;
 background-color: #e1dcd2;
 }
 #HomeMS_Section4
@@ -29,13 +29,29 @@ background-color: black;
 	height: 250px;
 	width: 250px;
 }
-h1 /*regular style of text*/
+##HomeMS_Title/*regular style of text*/
 {
 	text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 	margin-top: 50px;
 	font-size: 72px; 
 	color: rgba(0, 41, 88, 0.901961);
 
+
+}
+#Mbrs_H1_Title
+{
+	text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+	margin-top: 20px;
+	font-size: 72px; 
+	color: rgba(0, 41, 88, 0.901961);
+
+}
+#Mbrs_TitleDiv
+{
+	border-top: 23px solid;
+	border-bottom: 23px solid;
+
+	border-color: #c5960c;
 }
 .HomeMS_Sect1_ButtAlign
 {
@@ -88,11 +104,12 @@ h1 /*regular style of text*/
 /*Media queries section*/
 /*for these first two media queries play around with them so that the title only takes up two lines do this by
 increasing or reducing the size of the fonts*/
-@media only screen and (max-width: 1080px)
+@media only screen and (min-width: 1080px)
 {
-	h1
+	#HomeMS_Title
 	{
 		font-size: 62px;
+		color: rgba(0, 41, 88, 0.901961);
 	}
 	#HomeMS_Sec1_Title 
 	{
@@ -100,11 +117,12 @@ increasing or reducing the size of the fonts*/
 	 margin-bottom: 40px;
 	}
 }
-@media only screen and (max-width: 1000px)
+@media only screen and (max-width: 1000px) and (max-width: 1079px)
 {
-	h1
+	#HomeMS_Title
 	{
 		font-size: 55px;
+		color: rgba(0, 41, 88, 0.901961);
 	}
 	#HomeMS_Sec1_Title 
 	{
@@ -114,9 +132,10 @@ increasing or reducing the size of the fonts*/
 }
 @media only screen and (max-width: 875px)
 {
-	h1
+	#HomeMS_Title
 	{
 		font-size: 45px;
+		color: rgba(0, 41, 88, 0.901961);
 	}
 	#HomeMS_Sec1_Title 
 	{
@@ -126,9 +145,10 @@ increasing or reducing the size of the fonts*/
 }
 @media only screen and (max-width: 675px)
 {
-	h1
+	#HomeMS_Title
 	{
 		font-size: 35px;
+		color: rgba(0, 41, 88, 0.901961);
 	}
 	#HomeMS_Sec1_Title 
 	{
@@ -138,9 +158,10 @@ increasing or reducing the size of the fonts*/
 }
 @media only screen and (max-width: 580px)
 {
-	h1
+	#HomeMS_Title
 	{
 		font-size: 25px;
+		color: rgba(0, 41, 88, 0.901961);
 	}
 	#HomeMS_Sec1_Title 
 	{
@@ -150,9 +171,10 @@ increasing or reducing the size of the fonts*/
 }
 @media only screen and (max-width: 380px)
 {
-	h1
+	#HomeMS_Title
 	{
 		font-size: 20px;
+		color: rgba(0, 41, 88, 0.901961);
 	}
 	#HomeMS_Sec1_Title 
 	{
