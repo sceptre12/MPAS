@@ -50,8 +50,23 @@ background-color: black;
 {
 	border-top: 23px solid;
 	border-bottom: 23px solid;
-
+	
 	border-color: #c5960c;
+}
+#Mbrs_TitlePos
+{
+	margin-top: -20px;
+	position: inherit;
+	
+}
+#Mbrs_TitleImg
+{
+	max-height: 100px;
+	max-width: 200px;
+	margin-left: 30px;
+	margin-top: 5px;
+	position: static;
+	float: left;
 }
 .HomeMS_Sect1_ButtAlign
 {
