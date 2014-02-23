@@ -4462,7 +4462,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 
 .navbar-fixed-top,
 .navbar-fixed-bottom {
-  position: static; /*original is fixed*/
+  position: fixed; 
   right: 0;
   left: 0;
   z-index: 1030;
@@ -6382,17 +6382,18 @@ button.close {
 
 .carousel-inner > .item {
   position: relative;
-  display: none;
+  display: none; 
   -webkit-transition: 0.6s ease-in-out left;
           transition: 0.6s ease-in-out left;
 }
 
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
-  display: block;
+  display: block; 
   height: auto;
   max-width: 100%;
   line-height: 1;
+  position: relative; /*tester */
 }
 
 .carousel-inner > .active,
@@ -6438,7 +6439,8 @@ button.close {
   top: 0;
   bottom: 0;
   left: 0;
-  width: 15%;
+  width: 15%; 
+
   font-size: 20px;
   color: #ffffff;
   text-align: center;
@@ -6453,6 +6455,7 @@ button.close {
   background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0.5) 0, rgba(0, 0, 0, 0.0001) 100%);
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5) 0, rgba(0, 0, 0, 0.0001) 100%);
   background-repeat: repeat-x;
+  
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#00000000', GradientType=1);
 }
 
@@ -6557,9 +6560,21 @@ button.close {
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
 }
 
+/*Xavier's carousel changes for the MBRS_HomePage*/
+#Mbrs_carouselTitle
+{
+  padding-top: 20px;
+
+  font-size: 45px;
+  z-index: 10;
+  position: absolute;
+}
+/*End of Xavier carousel changes*/
+
 .carousel-caption .btn {
   text-shadow: none;
 }
+
 
 @media screen and (min-width: 768px) {
   .carousel-control .glyphicons-chevron-left,

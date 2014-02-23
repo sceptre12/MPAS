@@ -38,10 +38,12 @@ background-color: black;
 
 
 }
+
 #Mbrs_H1_Title
 {
 	text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 	margin-top: 20px;
+	padding-left: 290px;
 	font-size: 72px; 
 	color: rgba(0, 41, 88, 0.901961);
 
@@ -65,7 +67,7 @@ background-color: black;
 	max-width: 200px;
 	margin-left: 30px;
 	margin-top: 5px;
-	position: static;
+	position: relative;
 	float: left;
 }
 .HomeMS_Sect1_ButtAlign
@@ -152,8 +154,19 @@ increasing or reducing the size of the fonts*/
 		font-size: 45px;
 		color: rgba(0, 41, 88, 0.901961);
 	}
-	#HomeMS_Sec1_Title 
+
+	/*this part below will be if i actually use this top heading part*/
+	/*#Mbrs_H1_Title
 	{
+		font-size: 45px;
+	}
+	#Mbrs_TitleImg
+	{
+		max-height: 80px;
+		max-width: 160px;
+	}
+	#HomeMS_Sec1_Title 
+	{*/
 	 
 	 margin-bottom: 40px;
 	}
