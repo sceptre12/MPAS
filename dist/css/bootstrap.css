@@ -5794,8 +5794,13 @@ a.list-group-item.active:focus .list-group-item-text {
 
 .panel-default > .panel-heading {
   color: #333333;
-  background-color: #f5f5f5;
-  border-color: #dddddd;
+  background-color: blue; /*original color #f5f5f5*/
+
+  border-color: #dddddd; 
+
+  /*the below part is what Xavier Added*/
+  
+  border-bottom-width: 5px;
 }
 
 .panel-default > .panel-heading + .panel-collapse .panel-body {
