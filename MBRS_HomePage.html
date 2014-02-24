@@ -86,7 +86,7 @@
 			
 				
 				
-				<div id="Mbrs_carousel" class="carousel slide" style="width: 100%; margin: 0 auto" >
+				<div id="Mbrs_carousel" class="carousel slide" style="width: 100% auto; margin: 0 auto; height: 300px; overflow: hidden" >
 					  <!-- Indicators -->
 					<ol class="carousel-indicators">
 						<li data-target="#Mbrs_carousel" data-slide-to="0" class="active"></li>
@@ -96,9 +96,11 @@
 						
 					</ol>
 					<!-- title for the carousel  -->
+					<div id="Mbrs_TitleContainer">
 						<div id="Mbrs_carouselTitle">
 							Welcome to The MBRS Home Page 
 						</div>
+					</div>
 					  <!-- Wrapper for slides -->
 					<div class="carousel-inner">
 					    <div class="item active">
@@ -134,10 +136,20 @@
 			
  			
 		
-	</div>
+	<center><a id="example"  class="btn btn-lg btn-danger" role="button" data-content="right?" title="" data-toggle="popover" href="#" data-original-title="Title" data-placement="bottom">
+      Click to Access Current Events 
+    </a></center>
 
 </section>
  <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
  <script src="dist/js/bootstrap.js"></script>
+ <script src="dist/js/Tooltip.js"></script>
+ <script src="dist/js/Popover.js"></script>
+ <script>
+ 	$(function()
+ 	{
+ 			$('#example').popover();
+ 	});
+ </script>
 </body>
 </html>

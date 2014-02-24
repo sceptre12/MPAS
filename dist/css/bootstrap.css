@@ -6563,11 +6563,20 @@ button.close {
 /*Xavier's carousel changes for the MBRS_HomePage*/
 #Mbrs_carouselTitle
 {
-  padding-top: 20px;
-
+  
   font-size: 45px;
+}
+#Mbrs_TitleContainer
+{
   z-index: 10;
   position: absolute;
+  margin-top: 10px;
+  padding: 9px;
+  
+  margin-left: 10px;
+  border-radius: 100px;
+  background-color: white;
+  opacity: .7;
 }
 /*End of Xavier carousel changes*/
 
