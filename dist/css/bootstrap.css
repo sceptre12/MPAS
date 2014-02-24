@@ -5622,8 +5622,8 @@ a.list-group-item.active:focus .list-group-item-text {
 .panel {
   margin-bottom: 20px;
   background-color: #ffffff;
-  border: 1px solid transparent;
-  border-radius: 4px;
+  /*border: 1px solid transparent;*/ /*Xavier Changed this*/
+  /*border-radius: 4px;*/ /*Xavier Changed this*/
   -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
           box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
 }
@@ -5735,9 +5735,12 @@ a.list-group-item.active:focus .list-group-item-text {
 
 .panel-heading {
   padding: 10px 15px;
+  border-top: 5px solid; /*Xavier added this*/
+  border-top-color: #dddddd;/*Xavier added this*/
   border-bottom: 1px solid transparent;
-  border-top-right-radius: 3px;
-  border-top-left-radius: 3px;
+  /*Xavier Changed the below*/
+  /*border-top-right-radius: 3px;
+  border-top-left-radius: 3px;*/
 }
 
 .panel-heading > .dropdown .dropdown-toggle {
@@ -5794,7 +5797,7 @@ a.list-group-item.active:focus .list-group-item-text {
 
 .panel-default > .panel-heading {
   color: #333333;
-  background-color: blue; /*original color #f5f5f5*/
+  background-color: rgba(0, 41, 88, 0.901961); /*original color #f5f5f5*/
 
   border-color: #dddddd; 
 
@@ -6582,6 +6585,17 @@ button.close {
   border-radius: 100px;
   background-color: white;
   opacity: .7;
+}
+#Mbrs_IntroTextBox
+{
+  z-index: 10;
+  padding: 10px;
+  position: absolute;
+  background-color: white;
+  opacity: .7;
+  position: absolute;
+  margin-top: 50px;
+  margin-left: 50px;
 }
 /*End of Xavier carousel changes*/
 
