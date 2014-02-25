@@ -6649,10 +6649,13 @@ button.close {
   float: left !important;
 }
 
-.hide {
+/*This is being commented out because it interferes with Nicks css
+We will change this in the future so we can use this attribute */
+/*.hide {
   display: none !important;
-}
-
+}*/
+/*
+End of Nicks changes*/
 .show {
   display: block !important;
 }
