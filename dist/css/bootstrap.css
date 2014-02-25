@@ -5802,7 +5802,7 @@ a.list-group-item.active:focus .list-group-item-text {
   border-color: #dddddd; 
 
   /*the below part is what Xavier Added*/
-  
+  border-bottom: 
   border-bottom-width: 5px;
 }
 
@@ -6590,12 +6590,15 @@ button.close {
 {
   z-index: 10;
   padding: 10px;
-  position: absolute;
+  
   background-color: white;
   opacity: .7;
   position: absolute;
-  margin-top: 50px;
-  margin-left: 50px;
+  margin-top: 150px;
+  margin-left: 600px ;
+  margin-right: 10px;
+
+
 }
 /*End of Xavier carousel changes*/
 
@@ -6656,6 +6659,7 @@ We will change this in the future so we can use this attribute */
 }*/
 /*
 End of Nicks changes*/
+
 .show {
   display: block !important;
 }
