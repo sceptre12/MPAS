@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Responsive Image Gallery</title>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"> 
+        <meta name="description" content="Responsive Image Gallery with jQuery" />
+        <meta name="keywords" content="jquery, carousel, image gallery, slider, responsive, flexible, fluid, resize, css3" />
+		<meta name="author" content="Codrops" />
+		<link rel="shortcut icon" href="../favicon.ico"> 
+        <link rel="stylesheet" type="text/css" href="css/demo.css" />
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<link rel="stylesheet" type="text/css" href="css/elastislide.css" />
+		<link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow&v1' rel='stylesheet' type='text/css' />
+		<link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css' />
+		<noscript>
+			<style>
+				.es-carousel ul{
+					display:block;
+				}
+			</style>
+		</noscript>
+		<script id="img-wrapper-tmpl" type="text/x-jquery-tmpl">	
+			<div class="rg-image-wrapper">
+				{{if itemsCount > 1}}
+					<div class="rg-image-nav">
+						<a href="#" class="rg-image-nav-prev">Previous Image</a>
+						<a href="#" class="rg-image-nav-next">Next Image</a>
+					</div>
+				{{/if}}
+				<div class="rg-image"></div>
+				<div class="rg-loading"></div>
+				<div class="rg-caption-wrapper">
+					<div class="rg-caption" style="display:none;">
+						<p></p>
+					</div>
+				</div>
+			</div>
+		</script>
+    </head>
+    <body>
+			
+			<div class="content">
+				<h1>MBRS MEMBERS</h1>
+				<div id="rg-gallery" class="rg-gallery">
+					<div class="rg-thumbs">
+						<!-- Elastislide Carousel Thumbnail Viewer -->
+						<div class="es-carousel-wrapper">
+							<div class="es-nav">
+								<span class="es-nav-prev">Previous</span>
+								<span class="es-nav-next">Next</span>
+							</div>
+							<div class="es-carousel">
+								<ul >
+									<li>
+										<a href="#"><img src="images/thumbs/1adriana_galvis.jpg" data-large="images/adriana_galvis.jpg" alt="image01" data-description="ADRIANA GALVIS | Graduate Student, PhD | MAJOR: BIOLOGY | MINOR CHEMISTRY | RESEARCH: I'm interested in examining the physiological significance of Ras Interference 1  (Rin1) in several cellular processes, including cancer, diabetes and neurodegenerative diseases.Specifically, my research project focus on the role of Rin1 in the intracellular  signaling mechanisms required for the regulation of tyrosine kinase receptors. | Email: agalv004@fiu.edu"/></a>
+									</li>
+									<li>
+										<a href="#"><img src="images/thumbs/2aisleen_diaz.jpg" data-large="images/aisleen_diaz.jpg" alt="image02" data-description="AISLEEN DIAS | Senior, BS | MAJOR: BIOLOGY | MINOR: CHEMISTRY/PHYSCHOLOGY/COMMUNICATIONS | RESEARCH: Investigating antibiotic resistant genes among microbes in relative pristine soils and its ecological significance of the soil resistome. Comparing diversity of antibiotic resistant genes in three different soil types from Miami-dade county using a community analysis. | Email: adiaz111@fiu.edu" /></a></li>
+									<li>
+										<a href="#"><img src="images/thumbs/3ana_paula_benaduce.jpg" data-large="images/ana_paula_benaduce.jpg" alt="image03" data-description="ANA PAULA BENADUCE | Graduate Student, PhD | MAJOR: BIOLOGY | RESEARCH: The main focus of my research is the development of a UV induced melanoma mouse model that combines Nucleotide Excision Repair deficiency with the over-activation of the Edn3 pathway. | Email: adasi004@fiu.edu" /></a>
+									</li>
+									<li>
+										<a href="#"><img src="images/thumbs/4andres_arango.jpg" data-large="images/andres_arango.jpg" alt="image04" data-description="ANDRES ARANGO | SENIOR, BS | MAJOR: PHYSICS AND CHEMISTRY | MINOR: BIOLOGY | RESEARCH: BIOPHYSICS | Email: aaran019@fiu.edu" /></a>
+									</li>
+									<li>
+										<a href="#"><img src="images/thumbs/5annia_mesa.jpg" data-large="images/annia_mesa.jpg" alt="image05" data-description="ANNIA MESA | GRADUATE STUDENT, PHD | MAJOR: BIOLOGICAL SCIENCE | RESEARCH: My research focuses on combining  molecular biology techniques and statistical methods as a tool to discriminate among autoimmune disorders with overlapping syndromes such as Systemic Lupus Erythematosus, Mixed Connective Tissue Disease and Rheumatoid Arthritis. | Email: amesa003@fiu.edu" /></a>
+									</li>	
+									<li>
+										<a href="#"><img src="images/thumbs/6ashley_wardlow.jpg" data-large="images/ashley_wardlow.jpg" alt="image06" data-description="ASHLEY WARDLOW | JUNIOR, BS | MAJOR: CHEMISTRY | RESEARCH: Studying different aspects of human genetic diversity. Researching methods to study genetic variations among human groups, especially those in the process of extinction mainly by admixture with other populations. | Email: wardlow04@yahoo.com" /></a>
+									</li>
+									<li>
+										<a href="#"><img src="images/thumbs/7boris_castillo.jpg" data-large="images/boris_castillo.jpg" alt="image07" data-description="BORIS CASTILLO | GRADUATE STUDENT, PHD | MAJOR: BIOLOGY | RESEARCH: My project aims to elucidate the mechanism that causes abnormal activation of the small GTPase Ras protein in response to the presence of Reactive Oxygen Species using Dictyostelium discoideum as model organism. | Email: mareiza@gmail.com" /></a>
+									</li>
+									<li>
+										<a href="#"><img src="images/thumbs/8carlos_parra.jpg" data-large="images/carlos_parra.jpg" alt="image08" data-description="CARLOS PARRA | JUNIOR, BS | BIOLOGICAL SCIENCES | MINOR: CHEMISTRY | RESEARCH: My research is overseen in the FIU Biomolecular Sciences Institute by Dr. Yuk-Ching Tse-Dinh. My current work involves the investigation of the inhibiting capability of synthetic molecules and natural products towards type 1A topoisomerase of bacterial pathogens that may serve as the basis of novel antibacterial drugs. | Email: cparr011@fiu.edu" /></a></li>
+									<li>
+										<a href="#"><img src="images/thumbs/9catherine_perez.jpg" data-large="images/catherine_perez.jpg" alt="image09" data-description="CATHERINE PEREZ | SENIOR, BS | MAJOR: BIOLOGICAL SCIENCES | MINOR: CHEMISTRY | RESEARCH: The aim of my research is to use pZXD99 (a derivative of plasmid pBR322) which was was previously created by in my lab Xiaoduo Zhi to first replace the phage T7 promoter with promoter PTac, an E. coli promoter that is IPTG-inducible; then to design a PLtetO-1 promoter to replace  S. typhimurium leu-500 between the HindIII and BamHI restriction sites; then to design two multiple cloning sites in order to replace the LacZ and Luciferase Genes; and to design separate origins that will replace pMB1 origin with p15A, pSC101 and a linear plasmid. | email: cpere087@fiu.edu" /></a></li>
+									<li>
+										<a href="#"><img src="images/thumbs/10eladio_mendez.jpg" data-large="images/eladio_mendez.jpg" alt="image10" data-description="ELADIO MENDEZ | GRADUATE STUDENT, PHD | MAJOR: CHEMISTRY | RESEARCH:  Conjugated Polymers (CPs) are an exciting new material in biomedical research, providing a bright, photostable, biocompatible platform for new fluorescent probes for cancer-specific cell imaging. Research focus is on CP aggregation control, color tuning, and improving cancer-cell specificity for the material. | Email: emend004@fiu.edu" /></a></li>
+									<li>
+										<a href="#"><img src="images/thumbs/11elizabeth_jordan.jpg" data-large="images/elizabeth_jordan.jpg" alt="image11" data-description="ELIZABETH JORDAN | JUNIOR, BS | MAJOR: BIOLOGY | MINOR: CHEMISTRY | RESEARCH: The primary goal of my research is to confirm a non-random organization of chromosomes in human sperm. In these studies, flourescent in situ hybridization (F.I.S.H.) is used so that both a polar and radial analysis can determine the organization. | email: ejord006@fiu.edu" /></a></li>
+									<li>
+										<a href="#"><img src="images/thumbs/12javier_how.jpg" data-large="images/javier_how.jpg" alt="image12" data-description="JAVIER HOW | SOPHOMORE, BS | MAJOR: BIOLOGY | MINOR: CHEMISTRY | RESEARCH | I currently work on analysing the differences in spermatogonial stem cells between cryptorchid and wild-type testes, the former being a condition where one or both testes fail to descend. I look at their niche, in terms of various growth factors and hormones. | Email: jhow001@fiu.edu" /></a></li>
+									<li>
+										<a href="#"><img src="images/thumbs/13javier_pino.jpg" data-large="images/javier_pino.jpg" alt="image13" data-description="JAVIER PINO | GRADUATE STUDENT MS | BIOLOGICAL SCIENCES | RESEARCH | The overall goal of my project is to understand how signaling pathways interact in order to regulate mammalian pigmentation. By determining the role of Endothelin 3 (Edn3) over expression in pigment production of the hair and skin of yellow mice. As well as, investigating if the over expression of Edn3 increases the DNA repair capacity of UV-induced melanocytes, both in vivo and in vitro. | Email: jpino004@fiu.edu" /></a>
+									</li>
+									<li>
+										<a href="#"><img src="images/thumbs/14jennifer_gloudeman.jpg" data-large="images/jennifer_gloudeman.jpg" alt="image14" data-description="JENNIFER GLOUDEMAN | SENIOR, BS | MAJOR: CHEMISTRY | RESEARCH: TBAF promoted, Palladium catalyzed direct arylation of 5-Iodouracil | Email: jglou001@fiu.edu" /></a>
+									</li>
+									<li>
+										<a href="#"><img src="images/thumbs/15jesse_pulido.jpg" data-large="images/jesse_pulido.jpg" alt="image15" data-description="JESSE PULIDO | GRADUATE STUDENT, PHD | MAJOR: CHEMISTRY | RESEARCH: I work on The synthesis and development of novel 4-N-amino modified Gemcitabine analogues for positron emission tomography based imaging. | Email: jpuli004@fiu.edu" /></a>
+									</li>
+									<li>
+										<a href="#"><img src="images/thumbs/16jessica_zayas.jpg" data-large="images/jessica_zayas.jpg" alt="image16" data-description="JESSICA ZAYAS | GRADUATE STUDENT, PHD | MAJOR: CHEMISTRY | RESEARCH: Working on a new face of S-Adenosyl-L-Methionine and am synthesizing constrained analogues of SAM. | email: jzaya003@fiu.edu" /></a>
+									</li>
+									<li>
+										<a href="#"><img src="images/thumbs/17karina_villalba.jpg" data-large="images/karina_villalba.jpg" alt="image17" data-description="KARINA VILLALBA | GRADUATE STUDENT, PHD | RESEARCH: My present research is on the analysis of the reward deficiency pathway and its genetic deviations in alcohol dependence. | EMAIL: kvill012@fiu.edu" /></a>
+									</li>
+									<li>
+										<a href="#"><img src="images/thumbs/18kevin_casin.jpg" data-large="images/kevin_casin.jpg" alt="image18" data-description="KEVIN CASIN | SENIOR, BS | MAJOR: BIOLOGY | MINOR: ENGLISH | RESEARCH: Linked between iron and tetracycline resistance in soil bacteria | email:  kcasi001@fiu.edu" /></a>
+									</li>
+									<li>
+										<a href="#"><img src="images/thumbs/19manuel_salinas.jpg" data-large="images/manuel_salinas.jpg" alt="image19" data-description="MANUEL SALINAS | GRADUATE STUDENT, PHD | MAJOR: BIOMEDICAL ENGINEERING | RESEARCH: My research area is in the field of cardiovascular mechanics. I am current working on a project titled Finite element Analysis of Stents for Use in Stent-Graft Aortic Implantation. | email: msali007@fiu.edu" /></a>
+									</li>
+									<li>
+										<a href="#"><img src="images/thumbs/20maria_areiza.jpg" data-large="images/maria_areiza.jpg" alt="image20" data-description="MARIA AREIZA | GRADUATE STUDENT, MS | MAJOR: BIOMEDICAL SCIENCES | RESEARCH: I work with Aedes aegypti, the yellow fever mosquito, an important disease vector of tropical diseases such as yellow fever and dengue.  Juvenile Hormone III (JH) is a master regulatory hormone in insects that controls metamorphosis and reproduction.  My work focuses on elucidating the role that Ecdysis triggering hormone (ETH) plays in the synthesis of JH. | email: mareiza@gmail.com" /></a>
+									</li>
+									<li>
+										<a href="#"><img src="images/thumbs/21michael_suarez.jpg" data-large="images/michael_suarez.jpg" alt="image21" data-description="MICHAEL SUAREZ | GRADUATE STUDENT, PHD | MAJOR: DEVELOPMENTAL PSYCHOLOGY | RESEARCH: My current research focuses on identifying and testing indicators of emotional reactivity/fear in Northern bobwhite quail neonates (Colinus virginianus) to determine how these emotions can be expressed and altered during early development and throughout the lifetime. | Email: msuar022@fiu.edu" /></a>
+									</li>
+									<li>
+										<a href="#"><img src="images/thumbs/22nicole_millan.jpg" data-large="images/nicole_millan.jpg" alt="image22" data-description="NICOLE MILLAN | SENIOR, BS | MAJOR: BIOLOGY | MINOR: CHEMISTRY and PSYCHOLOGY | RESEARCH: My current project aims to determine whether a non-random genome organization exists in the spermatozoa of normozoospermic individuals. In the coming months, I plan to expand the project in the coming months to include patients with severely compromised semen parameters to determine whether alterations in organization show a correlation with the male infertility phenotype. These studies could provide a better understanding of the mechanistic basis of male-factor infertility and allow individuals and clinicians to make more informed choices regarding assisted reproductive technologies. | email: nmill010@fiu.edu" /></a>
+									</li>
+									<li>
+										<a href="#"><img src="images/thumbs/23tiana_ruiz.jpg" data-large="images/tiana_ruiz.jpg" alt="image23" data-description="TIANA RUIZ | SOPHOMORE, BS | MAJOR: BIOMEDICAL ENGINEERING | RESEARCH: Tiana Ruiz is currently involved with the design of microfluidic paper-based analytical devices. These low cost devices are used in the detection specific analytes within a sample of fluid. The biosensors are applied in the medical field for diagnostics as well as in measuring toxicity levels in the environment and in food. | email: truiz006@fiu.edu" /></a>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<!-- End Elastislide Carousel Thumbnail Viewer -->
+					</div><!-- rg-thumbs -->
+				</div><!-- rg-gallery -->
+			</div><!-- content -->
+		</div><!-- container -->
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+		<script type="text/javascript" src="js/jquery.tmpl.min.js"></script>
+		<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+		<script type="text/javascript" src="js/jquery.elastislide.js"></script>
+		<script type="text/javascript" src="js/gallery.js"></script>
+    </body>
+</html>
