@@ -9,7 +9,6 @@ body {
 html {
     width: 100%;
     height: 100%;
-    background: black;
 }
 
 h1,
@@ -155,17 +154,15 @@ footer{
     -o-background-size: cover;
 }
 
-.dice {
-    background-attachment: absolute;
+.divider {
+
     width: 100%;
-    height: 40%;
     padding: 100px 0;
     text-align: center;
     color: #fff;
-    background: url(../img/5.jpg) no-repeat bottom center;
-    background-color: #000;
+    background-color:#c5960c;
     -webkit-background-size: cover;
-    -moz-background-size: cover;
+    -moz-background-size: cover;s
     background-size: cover;
     -o-background-size: cover;
 }
@@ -293,12 +290,11 @@ footer{
 
 
 
-.download-section {
+.about-us {
     width: 100%;
-    padding: 50px 0;
+    padding: 100px 0;
     color: #fff;
-    background: url(../img/downloads-bg.jpg) no-repeat center center scroll;
-    background-color: #000;
+    background-color: rgba(0, 41, 88, 0.901961);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -427,10 +423,10 @@ body {
 }
 #HomeMS_Section4
 {
-    
+    padding-top: 100;
     height: 100%;
     width: 100%;
-    background-color: black;
+    background-color: rgba(0, 41, 88, 0.901961);
 }
 #Mbrs_Section2
 {
@@ -553,10 +549,10 @@ body {
   font-size: .9em;
 }
 
-    #profiles {float:left; background-color:black; width:100%;text-align:left; top:450px;left:180px; color:white;}
+    #profiles {float:left; background-color:rgba(0, 41, 88, 0.901961); width:100%;text-align:left; top:450px;left:180px; color:white;}
     .show {display:block; width:600px;}
     .hide {display:none;}
-    .biopic {float:left;margin-left:20px; margin-right:30px; width:255px; height:355px; border-style:solid; border-color:#c5960c;clear:left;}
+    .biopic {float:left;margin-left:20px; margin-right:30px; width:255px; height:355px; border-style:solid; border-color:##c5960c;clear:left;}
     .biostext {display:block; margin-left:0px; font-family:Georgia, serif; clear:right;}
     #bioLinks {float:left; display:block; font-family:Georgia, serif; margin-top:15px; width:100%; margin-left: 20px;clear:right;}
     .link {font-family:Georgia,serif; color:#0000ff; text-decoration:none;}
@@ -564,4 +560,10 @@ body {
 .bottom{
     width: 100%;
     height: 100%;
+}
+
+.our_team_title{
+    width: 1170px;
+    padding-top: 50PX; 
+    text-align: center;
 }
