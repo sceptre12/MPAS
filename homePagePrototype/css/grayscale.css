@@ -117,7 +117,7 @@ footer{
     height: 50%;
     background: #1a1111;
     bottom: 0;
-    padding: 0s
+    padding: 0px 100px;
 }
 
 @media(min-width:767px) {
@@ -197,6 +197,25 @@ footer{
         font-size: 25px;
     }
 }
+
+.banner{
+    height: 45%;
+    background-size: cover;
+    padding: 30%  0px  0px 20px;
+}
+
+.banner h1{
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+/*contact page */
+
+.contact .banner{
+    background: url(http://ppcdn.500px.org/16957661/26f655836566b419e60376eab322be4ca7f4af4f/5.jpg) center no-repeat;
+}
+
+
 
 .btn-circle {
     width: 70px;
