@@ -39,6 +39,8 @@ p {
     }
 }
 
+
+
 a {
     color: #28c3ab;
     -webkit-transition: all .2s ease-in-out;
@@ -396,6 +398,11 @@ body {
 #Mbrs_Section2
 {
     height:300px;
+}
+#Mbrs_Section3
+{
+    height:100%;
+    width: 100%;
 }
 
 .thumbnail-list {
