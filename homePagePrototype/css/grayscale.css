@@ -140,6 +140,13 @@ footer{
     }
 }
 
+
+
+.welcome{
+    font-size: 2em;
+    z-index: 359;
+}
+
 .intro {
     display: table;
     width: 100%;
