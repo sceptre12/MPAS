@@ -6578,7 +6578,7 @@ button.close {
 {
   z-index: 10;
   position: absolute;
-  margin-top: 10px;
+  margin-top: 80px;
   padding: 9px;
   
   margin-left: 10px;
@@ -6586,19 +6586,32 @@ button.close {
   background-color: white;
   opacity: .7;
 }
-#Mbrs_IntroTextBox
+.Mbrs_IntroTextBox 
 {
   z-index: 10;
   padding: 10px;
-  
+
   background-color: white;
-  opacity: .7;
-  position: absolute;
-  margin-top: 150px;
-  margin-left: 600px ;
-  margin-right: 10px;
-
-
+  opacity: .4;
+  position: relative;
+  margin-bottom: 130px;
+  margin-left: 400px ;
+  margin-right: 80px ;
+  left: 20% !important;
+}
+.Mbrs_IntroTextStyle
+{
+  color: black !important;
+  font-size: 20px; 
+}
+.Mbrs_ImgContainter
+{
+  z-index: 10;
+  float: left;
+  position: relative;
+  bottom: 2px;
+  height: 250px;
+  width: 250px;
 }
 /*End of Xavier carousel changes*/
 
