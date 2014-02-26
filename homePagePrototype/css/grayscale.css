@@ -102,6 +102,24 @@ a:focus {
     outline: 0;
 }
 
+.d-tab{
+    background: black;
+    color: white;
+}
+
+.d-tab:hover{
+    color: #28c3ab;
+}
+
+
+/*footer styles*/
+footer{
+    height: 50%;
+    background: #474747;
+    bottom: 0;
+    padding: 0s
+}
+
 @media(min-width:767px) {
     .navbar {
         padding: 20px 0;
