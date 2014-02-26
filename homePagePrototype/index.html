@@ -45,8 +45,12 @@
                     <li class="page-scroll">
                         <a href="#about">About</a>
                     </li>
-                    <li class="page-scroll">
-                        <a href="#download">Portfolio</a>
+                    <li class="page-scroll dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown">Programs <b class="caret"></b> </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="mbrs.html">MBRS</a></li>
+                            <li><a href="mbrs.html">MPAS</a></li>
+                        </ul>
                     </li>
                     <li class="page-scroll">
                         <a href="#HomeMS_Section4">Our Team</a>
@@ -255,19 +259,20 @@
                 </div>
             </div>                      
         </div>
-        <script type="text/javascript">
-        $(document).ready(function () {
-            $(".link").click(function () {
-                $(".hide").hide();
-                var dataType = $(this).attr('data-type');
-                $("#" + dataType).show();
-            });
-        }); 
-        </script>
 </div>  
 </section>
 
   
+    
+    <script type="text/javascript">
+    $(document).ready(function () {
+        $(".link").click(function () {
+            $(".hide").hide();
+            var dataType = $(this).attr('data-type');
+            $("#" + dataType).show();
+        });
+    }); 
+    </script>
 
     <!-- Core JavaScript Files -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
