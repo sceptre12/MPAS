@@ -14,6 +14,7 @@
 .es-carousel{
 	overflow:hidden;
 	background:#000;
+
 }
 .es-carousel ul{
 	display:none;
@@ -21,7 +22,6 @@
 .es-carousel ul li{
 	height:100%;
 	float:left;
-	display:block;
 }
 .es-carousel ul li a{
 	display:block;
