@@ -113,10 +113,13 @@ a:focus {
 
 /*footer styles*/
 footer{
+    font-size:1em;
+    color:white;
     height: 50%;
     background: #1a1111;
     bottom: 0;
     padding: 0px 100px;
+    margin-bottom:-20px;
 }
 
 @media(min-width:767px) {
@@ -219,15 +222,21 @@ footer{
     background: url(http://ppcdn.500px.org/16957661/26f655836566b419e60376eab322be4ca7f4af4f/5.jpg) center no-repeat;
 }
 
+/*Assane*/
 p.contact{
     color: white;
-    text-align: center;
-    font-size: 2.0em;
-
+    font-size: 1em;
+    margin-top: 15px;
 }
+
+p.contactinfo{
+    font-size:1em;
+}
+
 /*Assane*/
 #contact-footer{
-    height:25%;
+    background-color: black;
+    height:20%;
 }
 
 
@@ -309,7 +318,7 @@ p.contact{
 
 .about-us {
     width: 100%;
-    padding: 100px 0;
+    padding: 50px 0;
     color: #fff;
     background-color: rgba(0, 41, 88, 0.901961);
     -webkit-background-size: cover;
@@ -441,7 +450,7 @@ body {
 #HomeMS_Section4
 {
     padding-top: 100;
-    height: 100%;
+    height: 80%;
     width: 100%;
     background-color: rgba(0, 41, 88, 0.901961);
 }
