@@ -29,7 +29,6 @@
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-custom">
 
-
 <?php include "navbar.html"; ?>
 
     

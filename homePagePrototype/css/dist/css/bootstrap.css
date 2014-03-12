@@ -5621,10 +5621,10 @@ a.list-group-item.active:focus .list-group-item-text {
 }
 
 .panel {
-  /*margin-bottom: 20px;*/ /*xavier -this is originaly supposed to be active*/
+  margin-bottom: 20px; 
   background-color: #ffffff;
-  /*border: 1px solid transparent;*/ /*Xavier Changed this*/
-  /*border-radius: 4px;*/ /*Xavier Changed this*/
+  border: 1px solid transparent;
+  border-radius: 4px; 
   -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
           box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
 }
@@ -5736,12 +5736,8 @@ a.list-group-item.active:focus .list-group-item-text {
 
 .panel-heading {
   padding: 10px 15px;
-  border-top: 5px solid; /*Xavier added this*/
-  border-top-color: #000000;/*Xavier added this*/
-  border-bottom: 1px solid transparent;
-  /*Xavier Changed the below*/
-  /*border-top-right-radius: 3px;
-  border-top-left-radius: 3px;*/
+  border-top-right-radius: 3px;
+  border-top-left-radius: 3px;
 }
 
 .panel-heading > .dropdown .dropdown-toggle {
@@ -5798,11 +5794,11 @@ a.list-group-item.active:focus .list-group-item-text {
 
 .panel-default > .panel-heading {
   color: #333333;
-  background-color: rgba(0, 41, 88, 0.901961); /*original color #f5f5f5*/
+  background-color: #f5f5f5; 
 
-  border-color: #000000; /*The original color is #dddddd*/
+  border-color: #dddddd; 
 
-  /*the below part is what Xavier Added*/
+  
   
 }
 
@@ -6568,52 +6564,6 @@ button.close {
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
 }
 
-/*Xavier's carousel changes for the MBRS_HomePage*/
-#Mbrs_carouselTitle
-{
-  
-  font-size: 45px;
-}
-#Mbrs_TitleContainer
-{
-  z-index: 10;
-  position: absolute;
-  margin-top: 80px;
-  padding: 9px;
-  
-  margin-left: 10px;
-  border-radius: 100px;
-  background-color: white;
-  opacity: .7;
-}
-.Mbrs_IntroTextBox 
-{
-  z-index: 10;
-  padding: 10px;
-
-  background-color: white;
-  opacity: .4;
-  position: relative;
-  margin-bottom: 130px;
-  margin-left: 400px ;
-  margin-right: 80px ;
-  left: 20% !important;
-}
-.Mbrs_IntroTextStyle
-{
-  color: black !important;
-  font-size: 20px; 
-}
-.Mbrs_ImgContainter
-{
-  z-index: 10;
-  float: left;
-  position: relative;
-  bottom: 2px;
-  height: 250px;
-  width: 250px;
-}
-/*End of Xavier carousel changes*/
 
 .carousel-caption .btn {
   text-shadow: none;
@@ -6665,13 +6615,11 @@ button.close {
   float: left !important;
 }
 
-/*This is being commented out because it interferes with Nicks css
-We will change this in the future so we can use this attribute */
-/*.hide {
+
+.hide {
   display: none !important;
-}*/
-/*
-End of Nicks changes*/
+}
+
 
 .show {
   display: block !important;

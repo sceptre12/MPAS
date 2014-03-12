@@ -1,0 +1,61 @@
+/*carousel changes */
+#Mbrs_carouselTitle
+{
+  
+  font-size: 45px;
+}
+#Mbrs_TitleContainer
+{
+  z-index: 10;
+  position: absolute !important;
+  margin-top: 80px;
+  padding: 9px;
+  
+  margin-left: 10px;
+  border-radius: 100px;
+  background-color: white;
+  opacity: .7;
+
+}
+.Mbrs_IntroTextBox 
+{
+  z-index: 10;
+  padding: 10px;
+
+  background-color: white;
+  opacity: .4;
+  position: relative;
+  margin-bottom: 130px;
+  margin-left: 400px ;
+  margin-right: 80px ;
+  left: 20% !important;
+}
+.Mbrs_IntroTextStyle
+{
+  color: black !important;
+  font-size: 20px; 
+}
+.Mbrs_ImgContainter
+{
+  z-index: 10;
+  float: left;
+  position: relative;
+  bottom: 2px;
+  height: 250px;
+  border-w
+  width: 250px;
+}
+
+/*end of carousel changes*/
+
+.gloss
+{
+  background-image: url('img/GlossGradient-2.png');
+  position: relative;
+  display: block;
+  width: 100%;
+  height: inherit;
+  background-repeat: no-repeat;
+  z-index: 3
+
+}

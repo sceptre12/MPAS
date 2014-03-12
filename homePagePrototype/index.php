@@ -19,7 +19,7 @@
 
     <!-- Custom Theme CSS -->
     <link href="css/grayscale.css" rel="stylesheet">
-    <link href="css/dist/css/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
 </head>
 
@@ -49,13 +49,13 @@
                                     <div class="HomeMS_Sect1_ButtAlign">
                                         <center> 
                                                 <img class= "HomeMS_Sec1_imgs"src="img/MBRS_2.jpg">
-                                                <br><br><br>
-                                                <a href="mbrs.html"><button type="button" class="btn btn-info"><b>ENTER</b></button></a>
+                                                <br><br>
+                                                <a href="mbrs.php"><button type="button" class="btn btn-info"><b>ENTER</b></button></a>
                                         </center>
                                     </div>
                                 </div>
                                     <div class="col-md-4">
-                                    <p class="intro-text">to The MBRS/MARC-U-Star HomePage</p>
+                                    <p class="intro-text">MBRS &amp; MARC U*Star HomePage</p>
                                         <div class="page-scroll">
                                             <a href="#about" class="btn-circle">
                                                 <i class="fa fa-angle-double-down animated"></i>
@@ -66,7 +66,7 @@
                                     <div class="HomeMS_Sect1_ButtAlign">
                                         <center> 
                                             <img class="HomeMS_Sec1_imgs" src="img/MarcUStar.jpg">
-                                            <br><br><br>
+                                            <br><br>
                                                 <a href=""></a><button type="button" class="btn btn-info"><b>ENTER</b></button></a>
                                         </center>
                                     </div>

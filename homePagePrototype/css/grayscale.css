@@ -1,10 +1,10 @@
-body {
+/*body {
     width: 100%;
     height: 100%;
     font-family: Lora,"Helvetica Neue",Helvetica,Arial,sans-serif;
     color: #fff;
     background-color: #000;
-}
+}*/
 
 html {
     width: 100%;
@@ -118,8 +118,10 @@ footer{
     bottom: 0;
     padding: 0px 100px;
 }
-
-@media(min-width:767px) {
+/*Okay for here .. i changed the nav bar so that when it reaches the screen width
+of 992px thats basically when it goes into its black form.. how do i make it 
+collapse to the grid form at that stage as well*/
+@media(min-width:992px) {
     .navbar {
         padding: 20px 0;
         border-bottom: 0;
@@ -416,7 +418,7 @@ body {
 #HomeMS_Sec1_Title 
 {
     background-color: #c5960c;
-    margin-bottom: 20px;
+    margin-bottom: -5px;
     font-weight:bold;
 }
 
@@ -445,14 +447,52 @@ body {
     width: 100%;
     background-color: rgba(0, 41, 88, 0.901961);
 }
+/*I'm still in testing mode for this because
+of all the changes it causes to the carousel */
+#Mbrs_Section1
+{
+    display: table;
+    width: 100%;
+    height: auto;
+    
+    
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
 #Mbrs_Section2
 {
-    height:300px;
+    
+    display: table;
+    width: 100%;
+    height: auto;
+    
+    
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
 }
 #Mbrs_Section3
 {
-    height:100%;
+    display: table;
     width: 100%;
+    height: auto;
+    
+    
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+
+}
+#Mbrs-padding
+{
+    padding-top: 10px;
+    padding-bottom: 10px;
+   margin-right: 10px;
+   margin-left: 10px
 }
 
 .thumbnail-list {
@@ -583,4 +623,108 @@ body {
     width: 1170px;
     padding-top: 50PX; 
     text-align: center;
+}
+/*carousel changes */
+#Mbrs_carouselTitle
+{
+  
+  font-size: 45px;
+}
+#Mbrs_TitleContainer
+{
+  z-index: 10;
+  position: absolute !important;
+  margin-top: 80px;
+  padding: 9px;
+  
+  margin-left: 10px;
+  border-radius: 100px;
+  background-color: white;
+  opacity: .7;
+
+}
+.Mbrs_IntroTextBox 
+{
+  z-index: 10;
+  padding: 10px;
+
+  background-color: white;
+  opacity: .4;
+  position: relative;
+  margin-bottom: 130px;
+  margin-left: 400px ;
+  margin-right: 80px ;
+  left: 20% !important;
+}
+.Mbrs_IntroTextStyle
+{
+  color: black !important;
+  font-size: 20px; 
+}
+.Mbrs_ImgContainter
+{
+  z-index: 10;
+  float: left;
+  position: relative;
+  bottom: 2px;
+  height: 250px;
+  border-w
+  width: 250px;
+}
+
+/*end of carousel changes*/
+
+.gloss
+{
+  background-image: url('../img/GlossGradient-2.png');
+  position: relative;
+  display: block;
+  width: 100%;
+  height: inherit;
+  background-repeat: no-repeat;
+  z-index: 3;
+  display: table;
+    width: 100%;
+    height: auto;
+    
+    
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+
+}
+
+
+
+
+/*media queries*/
+
+@media (max-width: 1199px)
+{
+    #HomeMS_Title
+    {
+        font-size: 52px;
+    }
+}
+@media (max-width: 992px)
+{
+    #HomeMS_Title
+    {
+        font-size: 42px;
+    }
+}
+@media (max-width: 635px)
+{
+    #HomeMS_Title
+    {
+        font-size: 32px;
+    }
+}
+@media (max-width: 480px)
+{
+    #HomeMS_Title
+    {
+        font-size: 22px;
+    }
 }
