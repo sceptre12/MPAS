@@ -85,32 +85,39 @@
         <div class="about-us">
             <div class="container">
                 <div class="col-lg-8 col-lg-offset-2">
-                    <h2>About Uss</h2>
+                    <h2>About Us</h2>
                     <p>The FIU Minority Opportunities in Research (MORE) Program began in 1985 and has grown to include the MBRS RISE, MBRS SCORE and MARC U*STAR Programs. The FIU SCORE Program assists FIU faculty in the preparation of grant proposals and provides administrative support post-award. The RISE Program also promotes the involvement of undergraduate and graduate students in research by providing salaries for the students, tuition for graduate students, and travel funds for the students to attend scientific meetings. In a similar fashion, the MARC U*STAR Program focuses on Junior and Senior undergraduate students. The students are involved in original research and, depending on their level, are expected to present their work at professional meetings and publish their results in research journals. The FIU MORE Program also enriches FIU by bringing prominent guest speakers to campus to meet with students, cosponsoring an annual symposium and providing a clearing house for students to learn about special training programs and career opportunities in biomedical research, such as NIH internships.</p>
                 </div>
+            </div>
+            <div class="page-scroll">
+                <a href=".team" class="btn-circle">
+                    <i class="fa fa-angle-double-down animated"></i>
+                </a>
             </div>
         </div>
     </section>
 
     <section class ="divider">
-        <div class="row"></div>
-    </section>
+        <div class="row team"></div>
+    </section>    
 
-    <section id="HomeMS_Section4" style="position:relative">
+    <section id="HomeMS_Section4" style="position:relative" >
 <!-- This section would be the contact form
     I'm debating whether it should contain everyones contact information or just the dept main offices information -->
     <div class="container">
         <div class="col-sm-12">
             <center><h1 style="color:gold">Our Team</h1></center>
         </div>
-    </div><!-- End of div -->
+    </div ><!-- End of div -->
 
 
-    <div class="container" id="top">
+
+    <div class="container" >
         <div id="bioLinks">
         <ul class="thumbnail-list">
             <li>
-                <a data-type="bio1" class="link image-w" >
+                <div class="page-scroll">
+                <a href=".info" data-type="bio1" class="link image-w" >
                     <img alt="thumbnail" src="img/MBRS_Contacts/program_director.png" style = "width:190px; height:270px"/>
                     <div class="cover">
                         <h3>MBRS Program Director</h3>
@@ -120,9 +127,11 @@
                         <p>licklite@fiu.edu</p>
                     </div>
                 </a>
+                </div>
             </li>
             <li>
-                <a data-type="bio2" class="link image-w">
+                <div class="page-scroll">
+                <a href=".info" data-type="bio2" class="link image-w">
                     <img alt="thumbnail" src="img/MBRS_Contacts/omelia.jpg" style = "width:190px; height:270px"/>
                     <div class="cover">
                         <h3>MARC U*STAR</h3> 
@@ -133,9 +142,11 @@
                         <p>weekso@fiu.edu</p>
                     </div>
                 </a>
+                </div>
             </li>
             <li>
-                <a data-type="bio3" class="link image-w">
+                <div class="page-scroll">
+                <a href=".info"data-type="bio3" class="link image-w">
                     <img alt="thumbnail" src="img/MBRS_Contacts/program_coordinator.JPG" style = "width:190px; height:270px"/>
                     <div class="cover">
                         <h3>MBRS Program Coordinator</h3>
@@ -145,9 +156,11 @@
                         <p>coaike@fiu.edu</p>
                     </div>
                 </a>
+                </div>
             </li>
             <li>
-                <a data-type="bio4" class="link image-w">
+                <div class="page-scroll">
+                <a href=".info" data-type="bio4" class="link image-w">
                     <img alt="thumbnail" src="img/MBRS_Contacts/office_assistant.jpg" style = "width:190px; height:270px"/>
                     <div class="cover">
                         <h3>Office Assistant</h3>
@@ -157,10 +170,11 @@
                         <p>mehida@fiu.edu</p>
                     </div>
                 </a>
-                
+                </div>
             </li>
             <li>
-                <a data-type="bio5" class="link image-w">
+                <div class="page-scroll">
+                <a href=".info" data-type="bio5" class="link image-w">
                     <img alt="thumbnail" src="img/MBRS_Contacts/sr_secretary.JPG" style = "width:190px; height:270px"/>
                     <div class="cover">
                         <h3>Sr. Secretary</h3>
@@ -170,12 +184,13 @@
                         <p>roblest@fiu.edu</p>
                     </div>
                 </a>
+                </div>
             </li>
         </ul>   
     </div>
     </div>
 <div class="container" id="bottom" style="background-color:#c5960c;">
-        <div id="profiles">
+        <div id="profiles" class="info">
             <div id="bio1" class="hide">
                 <div class="biopic"><img src="img/MBRS_Contacts/program_director.png" width="250" height="350"></div>
                 <div class="biostext">
@@ -245,12 +260,14 @@
         </div>
 </div>  
 </section>
-  
+    
+    <?php include "footer.html"; ?>
     
     <script type="text/javascript">
     $(document).ready(function () {
         $(".link").click(function () {
             $(".hide").hide();
+            $("#HomeMS_Section4").css({"height":"120%"});
             var dataType = $(this).attr('data-type');
             $("#" + dataType).show();
         });
