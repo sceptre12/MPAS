@@ -25,7 +25,7 @@
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-custom">
 
-<?php include "navbar.html"; ?>
+<?php include "mbrsnav.html"; ?>
 
 	<!-- <div id="Mbrs_Section1">
 		<div class="row">
