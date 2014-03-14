@@ -38,28 +38,21 @@
                     
                     <div id="Mbrs_carousel" class="carousel slide" style="width: 100% auto; margin: 0 auto; height: 600px auto; overflow: hidden" >
                         <!-- title for the carousel  -->
-                        <!-- removed for being ugly -->
-                        <div id="Mbrs_TitleContainer">
-                            <div id="Mbrs_carouselTitle">
-                                <b>Welcome to FIU's MBRS Home Page</b> 
-                            </div>
-                        </div>
-
-                        <!-- A little information about the program  -->
-
-                        
                           <!-- Wrapper for slides -->
                         <div class="carousel-inner">
                             <div class="item active">
-                                <img src="img/filler1.jpg" alt="Beach" class ="img-responsive">
+                                <img id="Mbrs_HomeImg" src="img/filler1.jpg" alt="Beach" class ="img-responsive">
+
                                 <div class ="carousel-caption">
                                     <div class="Mbrs_IntroTextBox">
-                            <div class="Mbrs_IntroTextStyle">
-                                <b>MBRS</b> is a student development program for minority
+                                        <div class="Mbrs_IntroTextStyle">
+                                                <b>Welcome to FIU's MBRS Home Page</b> 
+                                            
+                                <!-- <b>MBRS</b> is a student development program for minority
         serving institutions. The program supports institutional grants with well integrate developmental activities that may include, but are not limited to, research experiences in on campus laboratories, collaborative learning experiences, research careers seminars, scientific reading comprehension and writing skills, tutoring for excellence, and travel to scientific meetings.
-        
-                            </div>
-                        </div>
+         -->
+                                        </div>
+                                    </div>
                                     <a href="#Mbrs_Section2"><span class="glyphicon glyphicon-chevron-down " style="font-size: 56px; color: white; opacity: 0.7"></span></a>
                                 </div>
                             </div>

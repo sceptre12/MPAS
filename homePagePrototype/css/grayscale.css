@@ -634,23 +634,9 @@ of all the changes it causes to the carousel */
     text-align: center;
 }
 /*carousel changes */
-#Mbrs_carouselTitle
+#Mbrs_HomeImg
 {
-  
-  font-size: 45px;
-}
-#Mbrs_TitleContainer
-{
-  z-index: 10;
-  position: absolute !important;
-  margin-top: 80px;
-  padding: 9px;
-  
-  margin-left: 10px;
-  border-radius: 100px;
-  background-color: white;
-  opacity: .7;
-
+  opacity: .4;
 }
 .Mbrs_IntroTextBox 
 {
@@ -660,15 +646,17 @@ of all the changes it causes to the carousel */
   background-color: white;
   opacity: .4;
   position: relative;
-  margin-bottom: 130px;
-  margin-left: 400px ;
-  margin-right: 80px ;
-  left: 20% !important;
+  margin-bottom: 150px;
+  right:10;
+
+ 
+  
 }
 .Mbrs_IntroTextStyle
 {
   color: black !important;
-  font-size: 20px; 
+  font-weight: bolder !important;
+  font-size: 72px;
 }
 .Mbrs_ImgContainter
 {
@@ -704,7 +692,19 @@ of all the changes it causes to the carousel */
 
 }
 
-
+.Welcome_Fade
+{
+  z-index: 15;
+  background-color: #ffffff;
+  opacity: .8;
+  display: table;
+    width: 100%;
+    height: auto;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
 
 
 /*media queries*/
