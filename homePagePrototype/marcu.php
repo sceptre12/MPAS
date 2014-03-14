@@ -25,7 +25,7 @@
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-custom">
 
-<?php include "mbrsnav.html"; ?>
+<?php include "marcnav.html"; ?>
 
 	<!-- <div id="Mbrs_Section1">
 		<div class="row">
@@ -211,40 +211,44 @@ aegypti
 			</div>
 	</section>
 
-	<section id="Mbrs_Section3" class="panel panel-default container-fluid "style="background-color: #c5960c;">
+	<section id="Mbrs_Section3" class="panel panel-default container-fluid "style="background-color: #c5960c; " >
 		<div class="panel-heading">
 			<center style="font-size: 45px; color: #daa520"><b>ABOUT US</b></center>
 		</div>
-
 		<div class ="row">
-			<div class="col-md-2 " style="clear:both; background-color: #c5960c"></div>
+			<div class="col-md-2 " style="clear:both; background-color: #c5960c">
 
-		<div class="col-md-8">
+			</div>
+			<div class="col-md-8">
 				<br>
 			<div class ="row">
 				 <center><b style="font-size: 50px; ">Program Description</b></center><br>
 			</div>
-
-			<div class="row" style="background-color: #ffffff; opacity: 0.6; padding: 20px; border-radius: 40px"  >
-				<center><p style="color: black; opacity: 1 !important">The Minority Biomedical Research Support Research 
-					Initiative for Scientific Enhancement (MBRS RISE) program, sponsored by a National Institutes of Health (NIH) 
-					grant, is aimed at increasing the number of faculty, students and investigators who are members of groups that
-				    are underrepresented in the biomedical sciences. MBRS RISE grants are awarded to 2 or 4 year colleges, 
-				    universities and health professional schools with 50 percent or more student enrollment from underrepresented
-					groups to support research by faculty members, strengthen the institutions' biomedical research capabilities 
-					and provide opportunities for students to work as part of aresearch team. The FIU MBRS RISE Program provides 
-					graduate and undergraduate students compensation for a yearlong work obligation in a laboratory conducting 
-					biomedical research. Sponsored by the National Institutes of Health (NIH), the MBRS RISE Program is dedicated 
-					to increasing the number of undergraduate and graduate students from underrepresented groups in biomedical and 
-					behavioral research to enter into and successfully complete M.D./Ph.D. or Ph.D.
-					programs. Research travel funds are available for the MBRS RISE students to attend scientific meetings and 
-					conferences. The program also provides a tuition-waiver for graduate students. Other training includes: 
-					special skills &amp; professional development workshops as well as academic advisement. Undergraduate students 
-					may apply during their freshman, sophomore or junior years for participation in the program from the time of 
-					acceptance through their senior year. Graduate students may apply at any point during their FIU graduate program.
-				</p></center>
+			<div class="row">
 			</div>
-		</div>
+			<div   class="col-lg-12 " style="background-color: #ffffff; opacity: 0.6; padding: 20px; border-radius: 40px"  >
+				<center>
+				<p style="color: black; opacity: 1 !important">The Minority Biomedical Research Support Research Initiative for Scientific
+Enhancement
+(MBRS RISE) program, sponsored by a National Institutes of Health
+(NIH) grant, is aimed at increasing the number of faculty, students and investigators
+who are members of groups that are underrepresented in the biomedical sciences.
+MBRS RISE grants are awarded to 2
+-
+or 4
+-
+year colleges, universities and health profes-
+sional schools with 50 percent or more student enrollment from underrepresented
+groups to support research by faculty members, strengthen the institutions' biomedi-
+cal research capabilities and provide opportunities for students to work as part of a
+research team. The FIU MBRS RISE Program provides graduate and undergraduate students compensation for a yearlong work obligation in a laboratory conducting biomedical research. Sponsored by the National Institutes of Health (NIH), the MBRS RISE Program is dedicated to increasing the number of undergraduate and graduate students from underrepresented groups in biomedical and behavioral research to enter into and successfully complete M.D./Ph.D. or Ph.D.
+programs. Research travel funds are available for the MBRS RISE students to attend scientific meetings and conferences. The program also provides a tuition-waiver for graduate students. 
+Other training includes: special skills &amp; professional development workshops as well as academic advisement. Undergraduate students may apply during their freshman, sophomore or junior years for participation in the program from the time of acceptance through their senior year. Graduate students may apply at any point during their FIU graduate program.</center>
+ </p> 
+			</div>
+			</div>
+			<div class="col-md-2" style="background-color: #c5960c">
+			</div>
 			
 		</div>
 	</section>
