@@ -462,6 +462,7 @@ of all the changes it causes to the carousel */
 {
     display: table;
     width: 100%;
+
     height: auto;
     
     
@@ -636,21 +637,19 @@ of all the changes it causes to the carousel */
 /*carousel changes */
 #Mbrs_HomeImg
 {
-  opacity: .4;
+  opacity: .3;
 }
 .Mbrs_IntroTextBox 
 {
   z-index: 10;
-  padding: 10px;
-
-  background-color: white;
-  opacity: .4;
   position: relative;
-  margin-bottom: 150px;
-  right:10;
-
- 
+  margin-bottom: 160px;
+}
+.Mbrs_captionPos .glyphicon
+{
   
+  margin-bottom: 70px;
+
 }
 .Mbrs_IntroTextStyle
 {
@@ -667,6 +666,17 @@ of all the changes it causes to the carousel */
   height: 250px;
   border-w
   width: 250px;
+}
+.Mbrs_CaraDesContainer
+{
+  z-index: 10;
+  position: relative;
+  margin-bottom:auto;
+  margin-bottom: 160px;
+}
+.Mbrs_CaraDesText
+{
+
 }
 
 /*end of carousel changes*/
@@ -715,12 +725,38 @@ of all the changes it causes to the carousel */
     {
         font-size: 52px;
     }
+    .Mbrs_IntroTextStyle
+    {
+      font-size: 62px;
+      
+    }
+    .Mbrs_IntroTextBox 
+    {
+      margin-bottom:100px;
+    }
+    .Mbrs_captionPos .glyphicon
+    {
+      margin-bottom: 60px;
+    }
 }
 @media (max-width: 992px)
 {
     #HomeMS_Title
     {
         font-size: 42px;
+    }
+    .Mbrs_IntroTextStyle
+    {
+      font-size: 42px;
+      
+    }
+    .Mbrs_IntroTextBox 
+    {
+      margin-bottom:50px;
+    }
+    .Mbrs_captionPos .glyphicon
+    {
+      margin-bottom: 50px;
     }
 }
 @media (max-width: 635px)
@@ -729,11 +765,37 @@ of all the changes it causes to the carousel */
     {
         font-size: 32px;
     }
+    .Mbrs_IntroTextStyle
+    {
+      font-size: 32px;
+      
+    }
+    .Mbrs_IntroTextBox 
+    {
+      margin-bottom:20px;
+    }
+    .Mbrs_captionPos .glyphicon
+    {
+      margin-bottom: 40px;
+    }
 }
 @media (max-width: 480px)
 {
     #HomeMS_Title
     {
         font-size: 22px;
+    }
+    .Mbrs_IntroTextStyle
+    {
+      font-size: 22px;
+      
+    }
+    .Mbrs_IntroTextBox 
+    {
+      margin-bottom:0px;
+    }
+    .Mbrs_captionPos .glyphicon
+    {
+      margin-bottom: 5px ;
     }
 }
