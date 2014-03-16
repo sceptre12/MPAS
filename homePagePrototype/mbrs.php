@@ -198,68 +198,6 @@ aegypti
 </div>
 </section>
 
-<<<<<<< HEAD
-					 			</div>
-					 			<div class="row">
-					 				<div class="col-md-12">
-					 					<b><center>For More News &amp; Events Please click below<br>
-					 					<a href="http://mbrs.fiu.edu/rise/application.shtml"><button type="button" style="background-color: rgba(0, 41, 88, 0.901961); border-color: #000000;" class="btn btn-info">Sign Up</button></a></center></b>
-					 				</div>
-					 			</div>
-					 		</div>
-					 	</div>
-					 	<div class="col-sm-3">
-					 		<b><center>MBRS RISE Biomedical Research Initative (BRI) 2014 FIU Student Summer Research Awards
-					 			<br><br>Applications Due by<br>
-					 		Friday, March 7th, 2014 at 5pm
-					 		<br>For more information click below</b>
-					 		<br>
-					 		
-					 				<a href="http://mbrs.fiu.edu/docs/2014%20BRI%20Application%20Guidelines.pdf"><button type="button" style="background-color: rgba(0, 41, 88, 0.901961); border-color: #000000;"class="btn btn-info"> Click Me</button></a></center>
-					 	</div>
-			 		</div>
-				</div>
-			</div>
-	</section>
-
-	<section id="Mbrs_Section3" class="panel panel-default container-fluid "style="background-color: #c5960c;">
-		<div class="panel-heading">
-			<center style="font-size: 45px; color: #daa520"><b>ABOUT US</b></center>
-		</div>
-
-		<div class ="row">
-			<div class="col-md-2 " style="clear:both; background-color: #c5960c"></div>
-
-		<div class="col-md-8">
-				<br>
-			<div class ="row">
-				 <center><b style="font-size: 50px; ">Program Description</b></center><br>
-			</div>
-
-			<div class="row" style="background-color: #ffffff; opacity: 0.6; padding: 20px; border-radius: 40px"  >
-				<center><p style="color: black; opacity: 1 !important">The Minority Biomedical Research Support Research 
-					Initiative for Scientific Enhancement (MBRS RISE) program, sponsored by a National Institutes of Health (NIH) 
-					grant, is aimed at increasing the number of faculty, students and investigators who are members of groups that
-				    are underrepresented in the biomedical sciences. MBRS RISE grants are awarded to 2 or 4 year colleges, 
-				    universities and health professional schools with 50 percent or more student enrollment from underrepresented
-					groups to support research by faculty members, strengthen the institutions' biomedical research capabilities 
-					and provide opportunities for students to work as part of aresearch team. The FIU MBRS RISE Program provides 
-					graduate and undergraduate students compensation for a yearlong work obligation in a laboratory conducting 
-					biomedical research. Sponsored by the National Institutes of Health (NIH), the MBRS RISE Program is dedicated 
-					to increasing the number of undergraduate and graduate students from underrepresented groups in biomedical and 
-					behavioral research to enter into and successfully complete M.D./Ph.D. or Ph.D.
-					programs. Research travel funds are available for the MBRS RISE students to attend scientific meetings and 
-					conferences. The program also provides a tuition-waiver for graduate students. Other training includes: 
-					special skills &amp; professional development workshops as well as academic advisement. Undergraduate students 
-					may apply during their freshman, sophomore or junior years for participation in the program from the time of 
-					acceptance through their senior year. Graduate students may apply at any point during their FIU graduate program.
-				</p></center>
-			</div>
-		</div>
-			
-		</div>
-	</section>
-=======
     <section id="Mbrs_Section3" >
     
     <div class="container-fluid" >
@@ -293,8 +231,6 @@ research team. The FIU MBRS RISE Program provides graduate and undergraduate stu
 programs. Research travel funds are available for the MBRS RISE students to attend scientific meetings and conferences. The program also provides a tuition-waiver for graduate students. 
 Other training includes: special skills &amp; professional development workshops as well as academic advisement. Undergraduate students may apply during their freshman, sophomore or junior years for participation in the program from the time of acceptance through their senior year. Graduate students may apply at any point during their FIU graduate program.</center>
  </p> 
->>>>>>> af4820338a109496b596d821b6b0cd301407b51c
-
                     </div>
                 </div>
             </div>
@@ -310,9 +246,6 @@ Other training includes: special skills &amp; professional development workshops
      <script src="css/dist/js/bootstrap.js"></script>
      <script src="css/dist/js/Tooltip.js"></script>
      <script src="css/dist/js/Popover.js"></script>
-     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
     <!-- Custom Theme JavaScript -->
     <script src="js/grayscale.js"></script>
      <script>

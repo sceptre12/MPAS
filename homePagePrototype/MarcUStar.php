@@ -42,7 +42,7 @@
                                 <div class ="carousel-caption">
                                     <div class="Mbrs_IntroTextBox">
                                         <div class="Mbrs_IntroTextStyle">
-                                                <b>Welcome to FIU's MBRS Home Page</b> 
+                                                <b>Welcome to FIU's MARC U Home Page</b> 
                                         </div>
                                     </div>
                                     <div class="Mbrs_captionPos page-scroll">
