@@ -10,6 +10,7 @@
 
     <!-- Bootstrap Core CSS -->
     <script type="text/javascript" src="jquery.js"></script>
+    <link href="dist/bootstrap.min.css" rel="stylesheet" type="text/css">
     
     <!-- Fonts -->
     <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -17,21 +18,16 @@
     <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 
     <!-- Custom Theme CSS -->
-
     <link href="css/grayscale.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
     <!-- why is this being loaded it sholdnt be loaded -->
     <!-- <link href="Tester2.css" rel="stylesheet"> -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    
-    
-
 </head>
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-custom">
 
-<?php include "mbrsnav.html"; ?>
-
-
+<?php include "marcnav.html"; ?>
     
 <section id="Mbrs_Section1">
         
@@ -45,12 +41,14 @@
 
                                 <div class ="carousel-caption">
                                     <div class="Mbrs_IntroTextBox">
+
                                         <div class="Marc_IntroTextStyle">
                                                 <b>Welcome to FIU's Marc U*Star Home Page</b> 
+
                                         </div>
                                     </div>
                                     <div class="Mbrs_captionPos page-scroll">
-                                        <a href="#Mbrs_Section2"><span class="glyphicon glyphicon-chevron-down " style="font-size: 56px; color: white; opacity: 0.7"></span></a>
+                                        <a href="#Mbrs_Section3"><span class="glyphicon glyphicon-chevron-down " style="font-size: 56px; color: white; opacity: 0.7"></span></a>
                                     </div>
                                 </div>
                             </div>
@@ -81,7 +79,7 @@
                                         </div>
                                     </div>
                                     <div class="Mbrs_captionPos page-scroll">
-                                        <a href="#Mbrs_Section2"><span class="glyphicon glyphicon-chevron-down " style="font-size: 56px; color: white; opacity: 0.7"></span></a>
+                                        <a href="#Mbrs_Section3"><span class="glyphicon glyphicon-chevron-down " style="font-size: 56px; color: white; opacity: 0.7"></span></a>
                                     </div>        
                                 </div>
                             </div>
@@ -112,7 +110,7 @@
                                         </div>
                         </div>
                         <div class="Mbrs_captionPos page-scroll">
-                                    <a href="#Mbrs_Section2"><span class="glyphicon glyphicon-chevron-down " style="font-size: 56px; color: white; opacity: 0.7"></span></a>
+                                    <a href="#Mbrs_Section3"><span class="glyphicon glyphicon-chevron-down " style="font-size: 56px; color: white; opacity: 0.7"></span></a>
                         </div>    
                                 </div>
                             </div>
@@ -121,7 +119,7 @@
                                 <img src="img/filler4.jpg" alt="Beach" class ="img-responsive">
                                 <div class ="carousel-caption">
                                     <div class="Mbrs_captionPos page-scroll">
-                                        <a href="#Mbrs_Section2"><span class="glyphicon glyphicon-chevron-down " style="font-size: 56px; color: white; opacity: 0.7"></span></a>
+                                        <a href="#Mbrs_Section3"><span class="glyphicon glyphicon-chevron-down " style="font-size: 56px; color: white; opacity: 0.7"></span></a>
                                     </div>
                                 </div>
                             </div>
@@ -194,7 +192,7 @@
             </div>
         </div>
     </div>
-</div>
+    </div>
 </div>
 </section>
 
@@ -243,21 +241,15 @@ MARC U*STAR Program at FIU will help excellent URM continue on to successful car
     <?php include "footer.html"; ?>
 
     <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+      <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+
     <script src="js/grayscale.js"></script>
      <script src="css/dist/js/bootstrap.js"></script>
      <script src="css/dist/js/Tooltip.js"></script>
      <script src="css/dist/js/Popover.js"></script>
-     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
     <!-- Custom Theme JavaScript -->
     <script src="js/grayscale.js"></script>
-     <script>
-        $(function()
-        {
-                $('#example').popover();
-        });
-     </script>
     </body>
 </html>
 

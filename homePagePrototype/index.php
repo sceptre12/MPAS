@@ -44,10 +44,10 @@
                                 <div class="col-md-4">
                                     <div class="HomeMS_Sect1_ButtAlign">
                                         <center> 
-                                                <img class= "HomeMS_Sec1_imgs"src="img/MBRS_2.jpg">
-                                                <br><br>
-                                                <a href="mbrs.php"><button type="button" class="btn btn-info"><b>ENTER</b></button></a>
-                                        </center>
+                                                <img class= "HomeMS_Sec1_imgs img-circle"src="img/MBRS_2.jpg">
+                                                <br>
+                                                <!-- <a href="mbrs.php"><button type="button" class="btn btn-info"><b>ENTER</b></button></a>
+                                        --> </center>
                                     </div>
                                 </div>
                                 <div class="col-md-4">
@@ -57,10 +57,10 @@
                                 <div class="col-md-4">
                                     <div class="HomeMS_Sect1_ButtAlign">
                                         <center> 
-                                            <img class="HomeMS_Sec1_imgs" src="img/MarcUStar.jpg">
-                                            <br><br>
-                                                <a href="MarcUStar.php"><button type="button" class="btn btn-info"><b>ENTER</b></button></a>
-                                        </center>
+                                            <img class="HomeMS_Sec1_imgs img-circle" src="img/MarcUStar.jpg">
+                                            <br>
+                                                <!-- <a href="MarcUStar.php"><button type="button" class="btn btn-info"><b>ENTER</b></button></a>
+                                         --></center>
                                     </div>
                                 </div>
                             </div>

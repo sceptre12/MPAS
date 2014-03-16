@@ -10,6 +10,7 @@
 
     <!-- Bootstrap Core CSS -->
     <script type="text/javascript" src="jquery.js"></script>
+    <link href="dist/bootstrap.min.css" rel="stylesheet" type="text/css">
     
     <!-- Fonts -->
     <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -19,8 +20,7 @@
     <!-- Custom Theme CSS -->
 
     <link href="css/grayscale.css" rel="stylesheet">
-    <!-- why is this being loaded it sholdnt be loaded -->
-    <!-- <link href="Tester2.css" rel="stylesheet"> -->
+    
     <link href="css/bootstrap.min.css" rel="stylesheet">
     
     
@@ -50,7 +50,7 @@
                                         </div>
                                     </div>
                                     <div class="Mbrs_captionPos page-scroll">
-                                        <a href="#Mbrs_Section2"><span class="glyphicon glyphicon-chevron-down " style="font-size: 56px; color: white; opacity: 0.7"></span></a>
+                                        <a href="#Mbrs_Section3"><span class="glyphicon glyphicon-chevron-down " style="font-size: 56px; color: white; opacity: 0.7"></span></a>
                                     </div>
                                 </div>
                             </div>
@@ -81,7 +81,7 @@
                                         </div>
                                     </div>
                                     <div class="Mbrs_captionPos page-scroll">
-                                        <a href="#Mbrs_Section2"><span class="glyphicon glyphicon-chevron-down " style="font-size: 56px; color: white; opacity: 0.7"></span></a>
+                                        <a href="#Mbrs_Section3"><span class="glyphicon glyphicon-chevron-down " style="font-size: 56px; color: white; opacity: 0.7"></span></a>
                                     </div>        
                                 </div>
                             </div>
@@ -112,7 +112,7 @@ aegypti
                             </div>
                         </div>
                         <div class="Mbrs_captionPos page-scroll">
-                                    <a href="#Mbrs_Section2"><span class="glyphicon glyphicon-chevron-down " style="font-size: 56px; color: white; opacity: 0.7"></span></a>
+                                    <a href="#Mbrs_Section3"><span class="glyphicon glyphicon-chevron-down " style="font-size: 56px; color: white; opacity: 0.7"></span></a>
                         </div>    
                                 </div>
                             </div>
@@ -121,7 +121,7 @@ aegypti
                                 <img src="img/filler4.jpg" alt="Beach" class ="img-responsive">
                                 <div class ="carousel-caption">
                                     <div class="Mbrs_captionPos page-scroll">
-                                        <a href="#Mbrs_Section2"><span class="glyphicon glyphicon-chevron-down " style="font-size: 56px; color: white; opacity: 0.7"></span></a>
+                                        <a href="#Mbrs_Section3"><span class="glyphicon glyphicon-chevron-down " style="font-size: 56px; color: white; opacity: 0.7"></span></a>
                                     </div>
                                 </div>
                             </div>
@@ -231,7 +231,6 @@ research team. The FIU MBRS RISE Program provides graduate and undergraduate stu
 programs. Research travel funds are available for the MBRS RISE students to attend scientific meetings and conferences. The program also provides a tuition-waiver for graduate students. 
 Other training includes: special skills &amp; professional development workshops as well as academic advisement. Undergraduate students may apply during their freshman, sophomore or junior years for participation in the program from the time of acceptance through their senior year. Graduate students may apply at any point during their FIU graduate program.</center>
  </p> 
-
                     </div>
                 </div>
             </div>
@@ -243,13 +242,12 @@ Other training includes: special skills &amp; professional development workshops
     <?php include "footer.html"; ?>
 
     <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
-    <script src="js/grayscale.js"></script>
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+      <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+
      <script src="css/dist/js/bootstrap.js"></script>
      <script src="css/dist/js/Tooltip.js"></script>
      <script src="css/dist/js/Popover.js"></script>
-     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
     <!-- Custom Theme JavaScript -->
     <script src="js/grayscale.js"></script>
      <script>

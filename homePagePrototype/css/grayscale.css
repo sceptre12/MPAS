@@ -427,7 +427,7 @@ body {
 #HomeMS_Sec1_Title 
 {
     background-color: #c5960c;
-    margin-bottom: -5px;
+    margin-bottom: 20px;
     font-weight:bold;
 }
 
@@ -440,21 +440,22 @@ body {
 }
 .HomeMS_Sect1_ButtAlign
 {
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .HomeMS_Sec1_imgs
 {
-
-   height: 250px;
-    width: 300px;
+    
+   height: 200px;
+    width: 250px;
 }
 #HomeMS_Section4
 {
-    padding-top: 100;
+    padding-bottom: 100px;
     height: 80%;
     width: 100%;
     background-color: rgba(0, 41, 88, 0.901961);
+
 }
 /*I'm still in testing mode for this because
 of all the changes it causes to the carousel */
@@ -497,13 +498,6 @@ of all the changes it causes to the carousel */
     background-size: cover;
     -o-background-size: cover;
 
-}
-#Mbrs-padding
-{
-    padding-top: 10px;
-    padding-bottom: 10px;
-   margin-right: 10px;
-   margin-left: 10px
 }
 
 .thumbnail-list {
