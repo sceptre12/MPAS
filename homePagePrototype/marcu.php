@@ -27,20 +27,6 @@
 
 <?php include "marcnav.html"; ?>
 
-	<!-- <div id="Mbrs_Section1">
-		<div class="row">
-			<div id="Mbrs_TitleDiv" >
-				
-				<img id="Mbrs_TitleImg" src="MPAS_Pics/FIU_Letters.png">
-				
-				<div id="Mbrs_TitlePos">
-					<div id="Mbrs_H1_Title">
-						MBRS RISE Program
-					</div>
-				</div>
-			</div> 
-		</div>
-	</div> -->
 	<section id="Mbrs_Section1">
 		
 					

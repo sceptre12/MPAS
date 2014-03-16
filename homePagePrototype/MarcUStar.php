@@ -18,16 +18,16 @@
     <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 
     <!-- Custom Theme CSS -->
-
     <link href="css/grayscale.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- why is this being loaded it sholdnt be loaded -->
+    <!-- <link href="Tester2.css" rel="stylesheet"> -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 </head>
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-custom">
 
 <?php include "marcnav.html"; ?>
-
-
     
 <section id="Mbrs_Section1">
         
@@ -243,9 +243,6 @@ Other training includes: special skills &amp; professional development workshops
      <script src="css/dist/js/bootstrap.js"></script>
      <script src="css/dist/js/Tooltip.js"></script>
      <script src="css/dist/js/Popover.js"></script>
-     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
     <!-- Custom Theme JavaScript -->
     <script src="js/grayscale.js"></script>
     </body>

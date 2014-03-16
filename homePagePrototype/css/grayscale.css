@@ -460,8 +460,15 @@ body {
 }
 #Mbrs_Section3
 {
-    height:100%;
+    display: table;
     width: 100%;
+    height: auto;
+    
+    
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
 }
 
 .thumbnail-list {
@@ -592,4 +599,169 @@ body {
     width: 1170px;
     padding-top: 50PX; 
     text-align: center;
+}
+/*carousel changes */
+#Mbrs_HomeImg
+{
+  opacity: .3;
+}
+.Mbrs_IntroTextBox 
+{
+  z-index: 10;
+  position: relative;
+  margin-bottom: 160px;
+}
+.Mbrs_captionPos .glyphicon
+{
+  
+  margin-bottom: 70px;
+
+}
+.Mbrs_IntroTextStyle
+{
+  color: black !important;
+  font-weight: bolder !important;
+  font-size: 72px;
+}
+.Mbrs_ImgContainter
+{
+  z-index: 10;
+  float: left;
+  position: relative;
+  bottom: 2px;
+  height: 250px;
+  border-w
+  width: 250px;
+}
+.Mbrs_CaraDesContainer
+{
+  z-index: 10;
+  position: relative;
+  margin-bottom:auto;
+  margin-bottom: 160px;
+}
+.Mbrs_CaraDesText
+{
+
+}
+
+/*end of carousel changes*/
+
+.gloss
+{
+  background-image: url('../img/GlossGradient-2.png');
+  position: relative;
+  display: block;
+  width: 100%;
+  height: inherit;
+  background-repeat: no-repeat;
+  z-index: 3;
+  display: table;
+    width: 100%;
+    height: auto;
+    
+    
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+
+}
+
+.Welcome_Fade
+{
+  z-index: 15;
+  background-color: #ffffff;
+  opacity: .8;
+  display: table;
+    width: 100%;
+    height: auto;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+
+/*media queries*/
+
+@media (max-width: 1199px)
+{
+    #HomeMS_Title
+    {
+        font-size: 52px;
+    }
+    .Mbrs_IntroTextStyle
+    {
+      font-size: 62px;
+      
+    }
+    .Mbrs_IntroTextBox 
+    {
+      margin-bottom:100px;
+    }
+    .Mbrs_captionPos .glyphicon
+    {
+      margin-bottom: 60px;
+    }
+}
+@media (max-width: 992px)
+{
+    #HomeMS_Title
+    {
+        font-size: 42px;
+    }
+    .Mbrs_IntroTextStyle
+    {
+      font-size: 42px;
+      
+    }
+    .Mbrs_IntroTextBox 
+    {
+      margin-bottom:50px;
+    }
+    .Mbrs_captionPos .glyphicon
+    {
+      margin-bottom: 50px;
+    }
+}
+@media (max-width: 635px)
+{
+    #HomeMS_Title
+    {
+        font-size: 32px;
+    }
+    .Mbrs_IntroTextStyle
+    {
+      font-size: 32px;
+      
+    }
+    .Mbrs_IntroTextBox 
+    {
+      margin-bottom:20px;
+    }
+    .Mbrs_captionPos .glyphicon
+    {
+      margin-bottom: 40px;
+    }
+}
+@media (max-width: 480px)
+{
+    #HomeMS_Title
+    {
+        font-size: 22px;
+    }
+    .Mbrs_IntroTextStyle
+    {
+      font-size: 22px;
+      
+    }
+    .Mbrs_IntroTextBox 
+    {
+      margin-bottom:0px;
+    }
+    .Mbrs_captionPos .glyphicon
+    {
+      margin-bottom: 5px ;
+    }
 }
