@@ -32,12 +32,8 @@
         <div class="intro-body">
             <div class="row" id="HomeMS_Sec1_Title">
                 <div class="container">
-                
-                    <div >
-                        <!-- I need to fix the title - Xavier...Implemented
-                                seems fine(Daryl)-->
-                            <center id="HomeMS_Title"><style type="text/css" ></style>Minority Opportunites in Biomedical Research Programs</center>
-                    </div>
+                    <center id="HomeMS_Title"><style type="text/css" ></style>Minority Opportunites in Biomedical Research Programs</center>
+                    
                 </div>
         </div>
             <div class="container">
@@ -54,23 +50,29 @@
                                         </center>
                                     </div>
                                 </div>
-                                    <div class="col-md-4">
+                                <div class="col-md-4">
                                     <p class="intro-text">MBRS &amp; MARC U*Star HomePage</p>
-                                        <div class="page-scroll">
-                                            <a href="#about" class="btn-circle">
-                                                <i class="fa fa-angle-double-down animated"></i>
-                                            </a>
-                                        </div>
-                                     </div>   
+                                </div>
+                                    
                                 <div class="col-md-4">
                                     <div class="HomeMS_Sect1_ButtAlign">
                                         <center> 
                                             <img class="HomeMS_Sec1_imgs" src="img/MarcUStar.jpg">
                                             <br><br>
-                                                <a href=""></a><button type="button" class="btn btn-info"><b>ENTER</b></button></a>
+                                                <a href="MarcUStar.php"><button type="button" class="btn btn-info"><b>ENTER</b></button></a>
                                         </center>
                                     </div>
                                 </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12" style="padding-top:10px; padding-bottom:10px">
+                                    
+                                        <div class="page-scroll">
+                                            <a href="#about" class="btn-circle">
+                                                <i class="fa fa-angle-double-down animated"></i>
+                                            </a>
+                                        </div>
+                                </div>   
                             </div>
                     </div>
                 </div>

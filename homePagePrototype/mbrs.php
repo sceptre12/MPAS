@@ -80,7 +80,7 @@
                     
                                         </div>
                                     </div>
-                                    <div class="Mbrs_captionPos">
+                                    <div class="Mbrs_captionPos page-scroll">
                                         <a href="#Mbrs_Section2"><span class="glyphicon glyphicon-chevron-down " style="font-size: 56px; color: white; opacity: 0.7"></span></a>
                                     </div>        
                                 </div>
@@ -111,7 +111,7 @@ aegypti
         
                             </div>
                         </div>
-                        <div class="Mbrs_captionPos">
+                        <div class="Mbrs_captionPos page-scroll">
                                     <a href="#Mbrs_Section2"><span class="glyphicon glyphicon-chevron-down " style="font-size: 56px; color: white; opacity: 0.7"></span></a>
                         </div>    
                                 </div>
@@ -120,7 +120,7 @@ aegypti
                             <div class="item ">
                                 <img src="img/filler4.jpg" alt="Beach" class ="img-responsive">
                                 <div class ="carousel-caption">
-                                    <div class="Mbrs_captionPos">
+                                    <div class="Mbrs_captionPos page-scroll">
                                         <a href="#Mbrs_Section2"><span class="glyphicon glyphicon-chevron-down " style="font-size: 56px; color: white; opacity: 0.7"></span></a>
                                     </div>
                                 </div>
@@ -146,8 +146,8 @@ aegypti
     <div class="row" style="border-width = 2px; ">
         <div class="col-lg-12">
             <div class="row">
-                <center style="font-size: 45px; color: rgba(0, 41, 88, 0.901961)">
-                <b>MBRS News &amp; Events</b></center>
+                <center style="font-size: 45px; background-color: rgba(0, 41, 88, 0.901961)">
+                <b style="color: #daa520">MBRS News &amp; Events</b></center>
             </div>
             <div class="row">
                 <div class="col-sm-3">

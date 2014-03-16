@@ -6,7 +6,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>MBRS</title>
+    <title>Marc U*Star</title>
 
     <!-- Bootstrap Core CSS -->
     <script type="text/javascript" src="jquery.js"></script>
@@ -45,8 +45,8 @@
 
                                 <div class ="carousel-caption">
                                     <div class="Mbrs_IntroTextBox">
-                                        <div class="Mbrs_IntroTextStyle">
-                                                <b>Welcome to FIU's MBRS Home Page</b> 
+                                        <div class="Marc_IntroTextStyle">
+                                                <b>Welcome to FIU's Marc U*Star Home Page</b> 
                                         </div>
                                     </div>
                                     <div class="Mbrs_captionPos page-scroll">
@@ -63,9 +63,9 @@
                                     </div>
                                     <div class="Mbrs_CaraDesContainer">
                                         <div class="Mbrs_CaraDesText">
-                                            <b>MBRS MINI
+                                            <b><center>MBRS MINI
             -
-            SYMPOSIUM</b> <br>
+            SYMPOSIUM</center></b> <br>
             1st Place Undergraduate Students Presentation
             —
             <b>Ruslan Garcia</b>,<br>
@@ -80,7 +80,7 @@
                     
                                         </div>
                                     </div>
-                                    <div class="Mbrs_captionPos">
+                                    <div class="Mbrs_captionPos page-scroll">
                                         <a href="#Mbrs_Section2"><span class="glyphicon glyphicon-chevron-down " style="font-size: 56px; color: white; opacity: 0.7"></span></a>
                                     </div>        
                                 </div>
@@ -94,24 +94,24 @@
                                     </div>
 
                                     <div class="Mbrs_CaraDesContainer">
-                            <div class="Mbrs_CaraDesText">
-                                <b>MBRS MINI
--
-SYMPOSIUM</b><br> 1st Place Graduate Student Presentation
-—
-<b>Maria Areiza</b>,<br> MBRS
-RISE Graduate Fellow
-Department: Biological Sciences, College of Arts and Sciences
-Faculty Mentor: Dr. Fernando Noriega
-Presentation Title:
-Ecdysis Triggering Hormone (ETH) and its
-Role in Juvenile Hormone Synthesis in the mosquito,
-Aedes
-aegypti
-        
-                            </div>
+                                        <div class="Mbrs_CaraDesText">
+                                            <b>MBRS MINI
+            -
+            SYMPOSIUM</b><br> 1st Place Graduate Student Presentation
+            —
+            <b>Maria Areiza</b>,<br> MBRS
+            RISE Graduate Fellow
+            Department: Biological Sciences, College of Arts and Sciences
+            Faculty Mentor: Dr. Fernando Noriega
+            Presentation Title:
+            Ecdysis Triggering Hormone (ETH) and its
+            Role in Juvenile Hormone Synthesis in the mosquito,
+            Aedes
+            aegypti
+                    
+                                        </div>
                         </div>
-                        <div class="Mbrs_captionPos">
+                        <div class="Mbrs_captionPos page-scroll">
                                     <a href="#Mbrs_Section2"><span class="glyphicon glyphicon-chevron-down " style="font-size: 56px; color: white; opacity: 0.7"></span></a>
                         </div>    
                                 </div>
@@ -120,7 +120,7 @@ aegypti
                             <div class="item ">
                                 <img src="img/filler4.jpg" alt="Beach" class ="img-responsive">
                                 <div class ="carousel-caption">
-                                    <div class="Mbrs_captionPos">
+                                    <div class="Mbrs_captionPos page-scroll">
                                         <a href="#Mbrs_Section2"><span class="glyphicon glyphicon-chevron-down " style="font-size: 56px; color: white; opacity: 0.7"></span></a>
                                     </div>
                                 </div>
@@ -146,8 +146,8 @@ aegypti
     <div class="row" style="border-width = 2px; ">
         <div class="col-lg-12">
             <div class="row">
-                <center style="font-size: 45px; color: rgba(0, 41, 88, 0.901961)">
-                <b>MBRS News &amp; Events</b></center>
+                <center style="font-size: 45px; background-color: rgba(0, 41, 88, 0.901961)">
+                <b style="color: #daa520">Marc U*Star News &amp; Events</b></center>
             </div>
             <div class="row">
                 <div class="col-sm-3">
@@ -160,7 +160,7 @@ aegypti
                 <div class="col-sm-6">
                     <div class = "row" >
                             <div class="col-sm-12">
-                                <u><b><center>MBRS RISE PROGRAM NOW ACCEPTING APPLICATIONS</center></b></u>
+                                <u><b><center>Marc U*Star PROGRAM NOW ACCEPTING APPLICATIONS</center></b></u>
                             </div>
                     </div>
                     <div class="row">
@@ -168,12 +168,12 @@ aegypti
                                 <b><center>Graduate Application Deadline<br>
                                 January 31st, 2014</b>
                                 <br>
-                                <a href="http://mbrs.fiu.edu/rise/application.shtml"><button type="button" style="background-color: rgba(0, 41, 88, 0.901961); border-color: #000000;" class="btn btn-info">Sign Up</button></a></center>
+                                <a href="http://mbrs.fiu.edu/marcustar/application.shtml"><button type="button" style="background-color: rgba(0, 41, 88, 0.901961); border-color: #000000;" class="btn btn-info">Sign Up</button></a></center>
                             </div>
                             <div class="col-md-6">
                                 <b><center>Undergraduate Application Deadline
                                 <br>February 28,2014</b><br>
-                                <a href="http://mbrs.fiu.edu/rise/application.shtml"><button type="button" style="background-color: rgba(0, 41, 88, 0.901961); border-color: #000000;" class="btn btn-info">Sign Up</button></a></center><br>
+                                <a href="http://mbrs.fiu.edu/marcustar/application.shtml"><button type="button" style="background-color: rgba(0, 41, 88, 0.901961); border-color: #000000;" class="btn btn-info">Sign Up</button></a></center><br>
                             </div>
                             <div class="row">
                                 <div class="col-md-12">
@@ -214,23 +214,23 @@ aegypti
                     <div id="Mbrs-padding"class="col-lg-12" >
                        
                         <center>
-                <p >The Minority Biomedical Research Support Research Initiative for Scientific
-Enhancement
-(MBRS RISE) program, sponsored by a National Institutes of Health
-(NIH) grant, is aimed at increasing the number of faculty, students and investigators
-who are members of groups that are underrepresented in the biomedical sciences.
-MBRS RISE grants are awarded to 2
--
-or 4
--
-year colleges, universities and health profes-
-sional schools with 50 percent or more student enrollment from underrepresented
-groups to support research by faculty members, strengthen the institutions' biomedi-
-cal research capabilities and provide opportunities for students to work as part of a
-research team. The FIU MBRS RISE Program provides graduate and undergraduate students compensation for a yearlong work obligation in a laboratory conducting biomedical research. Sponsored by the National Institutes of Health (NIH), the MBRS RISE Program is dedicated to increasing the number of undergraduate and graduate students from underrepresented groups in biomedical and behavioral research to enter into and successfully complete M.D./Ph.D. or Ph.D.
-programs. Research travel funds are available for the MBRS RISE students to attend scientific meetings and conferences. The program also provides a tuition-waiver for graduate students. 
-Other training includes: special skills &amp; professional development workshops as well as academic advisement. Undergraduate students may apply during their freshman, sophomore or junior years for participation in the program from the time of acceptance through their senior year. Graduate students may apply at any point during their FIU graduate program.</center>
- </p> 
+                <p >FIU's MARC U*STAR program specifically targets those rising juniors (especially scholars in the QBIC program) who have indicated an interest in Biomedical or Behavioral Sciences
+research and a choice and preference in pursuing a PhD.
+To meet its goal of encouraging underrepresented minorities (URM) to continue on to
+successful biomedical or behavioral science research careers, FIU's MARC U*STAR
+program provides a focused initiative that motivates promising students to choose a
+biomedical or behavioral science career. This goal is important because many students
+do not know what biomedical research really is or how exciting and rewarding it can be.
+By spending the first two academic years in FIU's Q`BIC program and gaining an
+integrative and quantitative science foundation, by participating in the planned
+simulation and modeling workshop, and by being a MARC U*STAR Fellow working in an
+active research lab, participants will be in environments and exposed to information
+that will help demystify biomedical and behavioral science research. The final critical
+issue is to insure that the motivated student with potential is given the necessary tools
+and skills to be competitive and the opportunity to succeed. The academic and
+research components of FIU's MARC U*STAR program provide these tools and skills. The
+MARC U*STAR Program at FIU will help excellent URM continue on to successful careers in biomedical or behavioral sciences research.
+</p> 
 
                     </div>
                 </div>
