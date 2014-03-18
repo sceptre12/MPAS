@@ -39,9 +39,9 @@
                             <center id="HomeMS_Title"><style type="text/css" ></style>MARC U*STAR</center>
                     </div>
                 </div>
-        </div>
+            </div>
             <div class="container">
-                <div class="row">
+                <div class="row" style="padding-bottom:40px">
                     <div class="col-md-12">
                         <h1 class="brand-heading">Welcome</h1>
                             <div class="row">
@@ -53,14 +53,11 @@
                                     <p class="intro-text">TO THE MARC U*STAR CURRICULUM</p>
                                         <div class="page-scroll">
                                             <a href="#about" class="btn-circle">
-                                                <i class="fa fa-angle-double-down animated"></i>
+                                                <i class="fa fa-angle-double-down animated" style="padding-bottom: 20px;"></i>
                                             </a>
                                         </div>
                                      </div>   
-                                <div class="col-md-4">
-                                    <div class="HomeMS_Sect1_ButtAlign">
-                                    </div>
-                                </div>
+                                
                             </div>
                     </div>
                 </div>
@@ -68,10 +65,10 @@
     </section>
     
     <section class ="divider">
-        <div class="row" id="about"></div>
+        <div class="row" ></div>
     </section>
 
-    <div class="panel panel-default container-fluid" style="background-color: #c5960c">
+    <div id="about"class="panel panel-default container-fluid" style="background-color: #c5960c; padding-top:50px;">
         <div class="panel-heading">
             <center style="font-size: 45px; color: #daa520"><b>PROGRAM ACTIVITIES</b></center>
         </div>
@@ -88,7 +85,7 @@
                     <p>Preparation for graduate school or post-baccalaureate programs</p> 
                 </div>
             </div>
-            <div class="page-scroll">
+            <div class="page-scroll" style="padding-bottom:40px;">
                 <a href=".team" class="btn-circle">
                     <i class="fa fa-angle-double-down animated"></i>
                 </a>
@@ -101,7 +98,7 @@
     </section>    
 
 
-    <div class="panel panel-default container-fluid" style="background-color: #c5960c">
+    <div class="panel panel-default container-fluid" style="background-color: #c5960c; margin-top:-50px">
         <div class="panel-heading">
             <center style="font-size: 45px; color: #daa520"><b>ANNUAL WORKSHOPS & EVENTS</b></center>
         </div>
@@ -149,7 +146,7 @@
     </section>    
 
 
-    <div class="panel panel-default container-fluid" style="background-color: #c5960c">
+    <div class="panel panel-default container-fluid" style="background-color: #c5960c; margin-top:-50px">
         <div class="panel-heading">
             <center style="font-size: 45px; color: #daa520"><b>PRESENTATION OPPORTUNITIES</b></center>
         </div>
@@ -180,7 +177,7 @@
     </section>
 
 
-    <section class ="divider">
+    <section class ="divider" style="padding-bottom: 150px">
         <div class="row activities"></div>
     </section>    
 
@@ -210,7 +207,7 @@
         </div>
     </section>
 
-    <section class ="divider">
+    <section class ="divider" style="padding-bottom: 130px">
         <div class="row participation"></div>
     </section>    
 
@@ -234,7 +231,7 @@
         </div>        
     </div> 
 
-    <section class ="divider">
+    <section class ="divider" style="padding-bottom: 130px">
         <div class="row series"></div>
     </section>    
 
@@ -263,7 +260,7 @@
     </section>    
 
 
-    <div class="panel panel-default container-fluid" style="background-color: #c5960c">
+    <div class="panel panel-default container-fluid" style="background-color: #c5960c; margin-top: -50px" >
         <div class="panel-heading">
             <center style="font-size: 45px; color: #daa520"><b>ACADEMIC ADVISEMENT</b></center>
         </div>

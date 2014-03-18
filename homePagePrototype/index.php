@@ -48,7 +48,7 @@
                                                 <div class="mbrs crop">
                                                     <div class="left image"></div>
                                                     <div class="right image"></div>
-                                                    <div class="content"><a href=""><button>Enter</button></a></div>
+                                                    <div class="content"><a href="mbrs.php"><button class="btn btn-info">Enter</button></a></div>
                                                 </div>
                                             </div>
                                                 <!-- <img class= "HomeMS_Sec1_imgs img-circle"src="img/MBRS_2.jpg">
@@ -68,7 +68,7 @@
                                                 <div class="mbrs crop">
                                                     <div class="left image"></div>
                                                     <div class="right image"></div>
-                                                    <div class="content"><a href=""><button>Enter</button></a></div>
+                                                    <div class="content"><a href="MarcUStar.php"><button class="btn btn-info">Enter</button></a></div>
                                                 </div>
                                             </div>
                                         </center>
