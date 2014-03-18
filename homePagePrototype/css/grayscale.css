@@ -446,7 +446,7 @@ body {
 .HomeMS_Sec1_imgs
 {
     
-   height: 200px;
+   height: 250px;
     width: 250px;
 }
 #HomeMS_Section4
@@ -722,6 +722,106 @@ of all the changes it causes to the carousel */
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+}
+/*Section for splitting images */
+.mbrs.crop {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%
+}
+.mbrs.crop .image {
+   background-image: url('../img/MBRS_2.jpg');
+   
+}
+
+/* animations */
+.crop:hover .upper.image {
+  top: -30%;
+}
+
+.crop:hover .lower.image {
+  bottom: -30%;
+}
+
+.crop:hover .left.image {
+  left: -30%;
+}
+
+.crop:hover .right.image {
+  right: -30%;
+}
+
+/* necessary bits */
+.crop {
+  position: relative;
+  overflow: hidden;
+  margin: 2em;
+  background-color:#c5960c;
+}
+
+.crop .content {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  height: 100%;
+  margin-top: auto;
+  margin-bottom: auto;
+  text-align: center;
+}
+
+.crop .image {
+  z-index: 1;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+}
+
+.crop .upper.image, .crop .lower.image {
+  height: 50%;
+}
+
+.crop .left.image, .crop .right.image {
+  width: 50%;
+}
+
+.crop .upper.image {
+  top: 0;
+  -webkit-transition: top 0.3s ease;
+  -moz-transition: top 0.3s ease;
+  -o-transition: top 0.3s ease;
+  -ms-transition: top 0.3s ease;
+  transition: top 0.3s ease;
+}
+
+.crop .lower.image {
+  bottom: 0;
+  background-position: 0% 100%;
+  -webkit-transition: bottom 0.3s ease;
+  -moz-transition: bottom 0.3s ease;
+  -o-transition: bottom 0.3s ease;
+  -ms-transition: bottom 0.3s ease;
+  transition: bottom 0.3s ease;
+}
+
+.crop .left.image {
+  left: 0;
+  background-position: 0% 50%;
+  -webkit-transition: left 0.3s ease;
+  -moz-transition: left 0.3s ease;
+  -o-transition: left 0.3s ease;
+  -ms-transition: left 0.3s ease;
+  transition: left 0.3s ease;
+}
+
+.crop .right.image {
+  right: 0;
+  background-position: 100%;
+  -webkit-transition: right 0.3s ease;
+  -moz-transition: right 0.3s ease;
+  -o-transition: right 0.3s ease;
+  -ms-transition: right 0.3s ease;
+  transition: right 0.3s ease;
 }
 
 

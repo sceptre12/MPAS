@@ -44,8 +44,15 @@
                                 <div class="col-md-4">
                                     <div class="HomeMS_Sect1_ButtAlign">
                                         <center> 
-                                                <img class= "HomeMS_Sec1_imgs img-circle"src="img/MBRS_2.jpg">
-                                                <br>
+                                            <div class="images">
+                                                <div class="mbrs crop">
+                                                    <div class="left image"></div>
+                                                    <div class="right image"></div>
+                                                    <div class="content"><a href=""><button>Enter</button></a></div>
+                                                </div>
+                                            </div>
+                                                <!-- <img class= "HomeMS_Sec1_imgs img-circle"src="img/MBRS_2.jpg">
+                                                <br> -->
                                                 <!-- <a href="mbrs.php"><button type="button" class="btn btn-info"><b>ENTER</b></button></a>
                                         --> </center>
                                     </div>
@@ -57,15 +64,19 @@
                                 <div class="col-md-4">
                                     <div class="HomeMS_Sect1_ButtAlign">
                                         <center> 
-                                            <img class="HomeMS_Sec1_imgs img-circle" src="img/MarcUStar.jpg">
-                                            <br>
-                                                <!-- <a href="MarcUStar.php"><button type="button" class="btn btn-info"><b>ENTER</b></button></a>
-                                         --></center>
+                                            <div class="images">
+                                                <div class="mbrs crop">
+                                                    <div class="left image"></div>
+                                                    <div class="right image"></div>
+                                                    <div class="content"><a href=""><button>Enter</button></a></div>
+                                                </div>
+                                            </div>
+                                        </center>
                                     </div>
                                 </div>
                             </div>
                             <div class="row">
-                                <div class="col-md-12" style="padding-top:10px; padding-bottom:10px">
+                                <div class="col-md-12" style="margin-top: -80px; padding-bottom:10px">
                                     
                                         <div class="page-scroll">
                                             <a href="#about" class="btn-circle">
