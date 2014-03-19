@@ -511,6 +511,20 @@ of all the changes it causes to the carousel */
     -o-background-size: cover;
 
 }
+#Mbrs_Faculty
+{
+    
+    display: table;
+    width: 100%;
+    height: auto;
+    
+    
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
 
 .thumbnail-list {
   list-style: none;
@@ -954,4 +968,35 @@ of all the changes it causes to the carousel */
       
       font-size: 22px;
     }
+}
+.our_team_title{
+    width: 1170px;
+    padding-top: 50PX; 
+    text-align: center;
+}
+
+.rise-faculty-list{
+    margin-left: 10px;
+}
+
+.faculty-rank{
+    color:#7575FF;
+}
+
+.faculty-name a:link{
+    color:rgba(0, 41, 88, 0.901961);
+    font-weight: bold;
+}
+.faculty-name a:visited{
+    text-decoration: none;
+}
+.faculty-name a:hover{
+    text-decoration: none;
+}
+.faculty-name a:active{
+    text-decoration: none;
+}
+
+#Mbrs_Faculty_Title{
+  margin-top: 50px
 }

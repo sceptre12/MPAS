@@ -21,7 +21,7 @@
     <link href="css/grayscale.css" rel="stylesheet">
     <link href="css/dist/css/bootstrap.css" rel="stylesheet">
 
-</head>}
+</head>
 
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-custom">
