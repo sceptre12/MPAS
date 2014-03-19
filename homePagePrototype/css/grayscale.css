@@ -666,7 +666,7 @@ of all the changes it causes to the carousel */
 }
 .Mbrs_IntroTextStyle
 {
-  color: black !important;
+  color: #DAA520 !important;
   font-weight: bolder !important;
   font-size: 80px;
 }
@@ -698,7 +698,7 @@ of all the changes it causes to the carousel */
 }
 .Marc_IntroTextStyle
 {
-  color: black !important;
+  color: #DAA520 !important;
   font-weight: bolder !important;
   font-size: 80px;
 }
@@ -840,9 +840,9 @@ of all the changes it causes to the carousel */
   transition: right 0.3s ease;
 }
 /*Changing the color of the nav bar on mbrs and marcustar page on carousel*/
-.nav a
+.Color_nav
 {
-  color: #DAA520;
+  color: #DAA520 !important;
 }
 /*media queries*/
 
