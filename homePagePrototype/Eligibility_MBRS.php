@@ -31,30 +31,38 @@
             <center style="font-size: 45px; color: #daa520"><b>Eligibility</b></center>
         </div>
     </div>
-    <section  >
-        <div class="about-us" >
+    <section >
+        <div class="eligibilty" >
             <div class="container">
-                <div class="col-lg-5 col-lg-offset-1 " style="color:white; font-size:20px">
-                        <h2><center>Requirements</center></h2>
-                        <li>Possess Underrepresented Minority Status</li>
-                        <li>Beginning Junior Year 
-                        <p>(Completed approximately 60-65 credits)</p></li>
-                        <li>GPA 3.3 or Higher</li>
-                        <li>Must be a U.S. Citizen or Permanent Resident</li>
-                        <li>Enrolled Full time at FIU in the Natural Sciences, Physical Sciences or Behavioral Psychology</li>
-                        <li>Have a strong desire to pursue a career in biomedical or behavioral sciences research (Ph.D. or M.D. /Ph.D.)</li>
-                        
-              </div>
-              <div class="col-lg-5 " style="color:white; font-size:20px">
-                        <h2><center>Program Benefits</center></h2>
-                        <li>Monthly Stipend</li> 
-                        <li>Tuition Waiver</li>
-                        <li>Funded Travel to National Scientific Meetings</li> 
-                        <li>Summer Research Opportunities</li> 
-                        <li>Work in Research Laboratories</li>
-                        <li>Participation in our Annual Mini-Symposium</li>
-                        <li>Participation in Special Skills Workshops</li>
-              </div>
+                <div class="row">
+                The MBRS RISE program at FIU is sponsored by a National Institutes of Health
+                 (NIH) grant. To receive salary support from the RISE program, students must 
+                 be U.S. citizens or non-citizen nationals or permanent residents, must be 
+                 enrolled full-time in academic degree programs in biomedical or behavioral 
+                 science fields at FIU, and must have a cumulative GPA of 3.0 or higher. A 
+                 non-citizen national is a person who, although not a citizen of the United 
+                 States, owes permanent allegiance to the U.S. This is generally a person 
+                 born in a land that is not a state, but that is under U.S. sovereignty, 
+                 jurisdiction, or administration – for example, American Samoa. An 
+                 individual lawfully admitted for permanent residence must possess a 
+                 currently valid Permanent Resident Card (USCIS Form I-551) or other legal 
+                 verification of such status prior to appointment in the RISE program. 
+                 Individuals on temporary visas, those seeking asylum, or refugees are not 
+                 eligible for support from the RISE program. Underrepresented students and 
+                 students with disabilities are encouraged to apply.
+            </div>
+                <div class="row"><br><br>
+                    <div class="col-md-5 col-lg-offset-4">
+                    <ol>
+                    <li>Completed on-line application</li> 
+                    <li>Updated CV or Resume</li>
+                    <li>Most up-to-date transcripts 
+                            <br>(unofficial transcripts acceptable for current FIU students)</li>
+                    <li>Three letters of recommendation addressed to Dr. Robert Lickliter, 
+                        MBRS Program Director, sent to OE 165 or via email to licklite@fiu.edu.</li>
+                    </ol>
+                    </div>    
+                </div>
             </div>
         </div>
     </section>

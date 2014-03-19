@@ -51,10 +51,8 @@
                                                     <div class="content"><a href="mbrs.php"><button class="btn btn-info">Enter</button></a></div>
                                                 </div>
                                             </div>
-                                                <!-- <img class= "HomeMS_Sec1_imgs img-circle"src="img/MBRS_2.jpg">
-                                                <br> -->
-                                                <!-- <a href="mbrs.php"><button type="button" class="btn btn-info"><b>ENTER</b></button></a>
-                                        --> </center>
+                                                
+                                         </center>
                                     </div>
                                 </div>
                                 <div class="col-md-4">
@@ -91,7 +89,7 @@
     </section>
     
     <section class ="divider">
-        <div class="row"></div>
+        
     </section>
 
    <section id="about" class="text-center">
@@ -103,21 +101,19 @@
                 </div>
             </div>
             <div class="page-scroll">
-                <a href=".team" class="btn-circle">
+                <a href="#HomeMS_Section4" class="btn-circle">
                     <i class="fa fa-angle-double-down animated"></i>
                 </a>
             </div>
         </div>
     </section>
 
-    <section class ="divider">
+    <section class ="divider" >
         <div class="row team"></div>
     </section>    
 
-    <section id="HomeMS_Section4" style="position:relative" >
-<!-- This section would be the contact form
-    I'm debating whether it should contain everyones contact information or just the dept main offices information -->
-    <div class="container">
+    <section id="HomeMS_Section4" style="position:relative; " >
+ <div class="container">
         <div class="col-sm-12">
             <center><h1 style="color:gold">Our Team</h1></center>
         </div>
