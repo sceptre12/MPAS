@@ -11,6 +11,7 @@
 		<link rel="stylesheet" type="text/css" href="css/elastislide.css" />
 		<link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow&v1' rel='stylesheet' type='text/css' />
 		<link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css' />
+
 		<noscript>
 			<style>
 				.es-carousel ul{
@@ -36,10 +37,10 @@
 			</div>
 		</script>
     </head>
-    <body>
-			
+    <body id="page-top" data-spy="scroll" data-target=".navbar-custom">
+
 			<div class="content">
-				<h1>MBRS MEMBERS</h1>
+				<h1>MARC U* MEMBERS</h1>
 				<div id="rg-gallery" class="rg-gallery">
 					<div class="rg-thumbs">
 						<!-- Elastislide Carousel Thumbnail Viewer -->
@@ -94,5 +95,7 @@
 		<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
 		<script type="text/javascript" src="js/jquery.elastislide.js"></script>
 		<script type="text/javascript" src="js/gallery.js"></script>
+
+
     </body>
 </html>
