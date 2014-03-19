@@ -537,8 +537,10 @@ of all the changes it causes to the carousel */
 
 .image-w img {
   display: block;
-  width: 180px;
-  height: 250px;
+  /*width: 180px;*/
+  width:auto;
+  /*height: 250px;*/
+  height: auto;
 }
 
 .cover {
@@ -590,7 +592,9 @@ of all the changes it causes to the carousel */
 .image-w img {
   display: block;
   width: 180px;
+ 
   height: 250px;
+
 }
 
 .cover {
@@ -835,8 +839,11 @@ of all the changes it causes to the carousel */
   -ms-transition: right 0.3s ease;
   transition: right 0.3s ease;
 }
-
-
+/*Changing the color of the nav bar on mbrs and marcustar page on carousel*/
+.nav a
+{
+  color: #DAA520;
+}
 /*media queries*/
 
 @media (max-width: 1199px)
