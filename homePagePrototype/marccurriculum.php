@@ -7,7 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>MARC-U-STAR</title>
+    <title>MBRS &amp; MARC-U-STAR</title>
 
     <!-- Bootstrap Core CSS -->
     <script type="text/javascript" src="jquery.js"></script>
@@ -39,9 +39,9 @@
                             <center id="HomeMS_Title"><style type="text/css" ></style>MARC U*STAR</center>
                     </div>
                 </div>
-            </div>
+        </div>
             <div class="container">
-                <div class="row" style="padding-bottom:40px">
+                <div class="row">
                     <div class="col-md-12">
                         <h1 class="brand-heading">Welcome</h1>
                             <div class="row">
@@ -51,24 +51,27 @@
                                 </div>
                                     <div class="col-md-4">
                                     <p class="intro-text">TO THE MARC U*STAR CURRICULUM</p>
-                                        <div class="page-scroll">
+                                        <div class="page-scroll" style="padding-bottom:20px">
                                             <a href="#about" class="btn-circle">
-                                                <i class="fa fa-angle-double-down animated" style="padding-bottom: 20px;"></i>
+                                                <i class="fa fa-angle-double-down animated"></i>
                                             </a>
                                         </div>
                                      </div>   
-                                
+                                <div class="col-md-4">
+                                    <div class="HomeMS_Sect1_ButtAlign">
+                                    </div>
+                                </div>
                             </div>
                     </div>
                 </div>
             </div>
     </section>
     
-    <section class ="divider">
-        <div class="row" ></div>
+    <section class ="divider" style="padding-top:20px">
+        <div class="row" id="about"></div>
     </section>
 
-    <div id="about"class="panel panel-default container-fluid" style="background-color: #c5960c; padding-top:50px;">
+    <div class="panel panel-default container-fluid" style="background-color: #c5960c">
         <div class="panel-heading">
             <center style="font-size: 45px; color: #daa520"><b>PROGRAM ACTIVITIES</b></center>
         </div>
@@ -85,7 +88,7 @@
                     <p>Preparation for graduate school or post-baccalaureate programs</p> 
                 </div>
             </div>
-            <div class="page-scroll" style="padding-bottom:40px;">
+            <div class="page-scroll">
                 <a href=".team" class="btn-circle">
                     <i class="fa fa-angle-double-down animated"></i>
                 </a>
@@ -93,12 +96,12 @@
         </div>
     </section>
 
-    <section class ="divider">
+    <section class ="divider" style="padding-top:20px">
         <div class="row team"></div>
     </section>    
 
 
-    <div class="panel panel-default container-fluid" style="background-color: #c5960c; margin-top:-50px">
+    <div class="panel panel-default container-fluid" style="background-color: #c5960c">
         <div class="panel-heading">
             <center style="font-size: 45px; color: #daa520"><b>ANNUAL WORKSHOPS & EVENTS</b></center>
         </div>
@@ -141,12 +144,12 @@
             </div>
     </section>
 
-    <section class ="divider">
+    <section class ="divider" style="padding-top:20px">
         <div class="row opportunities"></div>
     </section>    
 
 
-    <div class="panel panel-default container-fluid" style="background-color: #c5960c; margin-top:-50px">
+    <div class="panel panel-default container-fluid" style="background-color: #c5960c">
         <div class="panel-heading">
             <center style="font-size: 45px; color: #daa520"><b>PRESENTATION OPPORTUNITIES</b></center>
         </div>
@@ -177,7 +180,7 @@
     </section>
 
 
-    <section class ="divider" style="padding-bottom: 150px">
+    <section class ="divider" style="padding-top:20px">
         <div class="row activities"></div>
     </section>    
 
@@ -207,7 +210,7 @@
         </div>
     </section>
 
-    <section class ="divider" style="padding-bottom: 130px">
+    <section class ="divider" style="padding-top:20px">
         <div class="row participation"></div>
     </section>    
 
@@ -231,7 +234,7 @@
         </div>        
     </div> 
 
-    <section class ="divider" style="padding-bottom: 130px">
+    <section class ="divider" style="padding-top:20px">
         <div class="row series"></div>
     </section>    
 
@@ -255,12 +258,12 @@
         </div>        
     </div> 
 
-    <section class ="divider">
+    <section class ="divider" style="padding-top:20px">
         <div class="row academic"></div>
     </section>    
 
 
-    <div class="panel panel-default container-fluid" style="background-color: #c5960c; margin-top: -50px" >
+    <div class="panel panel-default container-fluid" style="background-color: #c5960c">
         <div class="panel-heading">
             <center style="font-size: 45px; color: #daa520"><b>ACADEMIC ADVISEMENT</b></center>
         </div>
