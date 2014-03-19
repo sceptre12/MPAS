@@ -660,9 +660,8 @@ of all the changes it causes to the carousel */
 }
 .Mbrs_captionPos .glyphicon
 {
-  
+  position: relative;
   margin-bottom: 70px;
-
 }
 .Mbrs_IntroTextStyle
 {
@@ -677,7 +676,7 @@ of all the changes it causes to the carousel */
   right: 15%;
   position: relative;
   
-  width: auto;
+  width: 100px;
 }
 .Mbrs_CaraDesContainer
 {
@@ -686,18 +685,21 @@ of all the changes it causes to the carousel */
   margin-bottom:auto;
   margin-bottom: 160px;
   background-color: white;
-  opacity: .4;
-  width: 300px;
 
-  height: 300px;
-  
+  opacity: .4;
+  width: 40%;
+  left:30%;
+  height: 40%;
 }
+
 .Mbrs_CaraDesText
 {
-
+  z-index: 11;
+  color: #ffffff !important;
 }
 .Marc_IntroTextStyle
 {
+
   color: #DAA520 !important;
   font-weight: bolder !important;
   font-size: 80px;

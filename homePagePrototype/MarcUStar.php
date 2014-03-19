@@ -56,14 +56,16 @@
                             <div class="item ">
                                 <img src="img/filler2.jpg" alt="Beach" class ="img-responsive">
                                 <div class ="carousel-caption">
+                                    <div class="row">
+                                    </div>
                                     <div class="Mbrs_ImgContainter">
                                         <img src="img/Symposium.png">
                                     </div>
                                     <div class="Mbrs_CaraDesContainer">
                                         <div class="Mbrs_CaraDesText">
-                                            <b><center>MBRS MINI
+                                            <b><center><h3>MBRS MINI
             -
-            SYMPOSIUM</center></b> <br>
+            SYMPOSIUM</h3></center></b> <br>
             1st Place Undergraduate Students Presentation
             —
             <b>Ruslan Garcia</b>,<br>
