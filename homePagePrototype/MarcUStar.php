@@ -177,7 +177,7 @@
                             <div class="row">
                                 <div class="col-md-12">
                                     <b><center>For More News &amp; Events Please click below<br>
-                                    <a href="http://mbrs.fiu.edu/rise/application.shtml"><button type="button" style="background-color: rgba(0, 41, 88, 0.901961); border-color: #000000;" class="btn btn-info">Sign Up</button></a></center></b>
+                                    <a href="bootstrap-calendar/index.html"><button type="button" style="background-color: rgba(0, 41, 88, 0.901961); border-color: #000000;" class="btn btn-info">Sign Up</button></a></center></b>
                                 </div>
                             </div>
                     </div>
