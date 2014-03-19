@@ -31,7 +31,7 @@
             <center style="font-size: 45px; color: #daa520"><b>Eligibility</b></center>
         </div>
     </div>
-    <section class="text-center">
+    <section class="text-center" style="padding-bottom:40px">
         <div class="about-us" >
             <div class="container">
                 <div class="col-lg-5 col-lg-offset-1 " style="color:white; font-size:20px">
