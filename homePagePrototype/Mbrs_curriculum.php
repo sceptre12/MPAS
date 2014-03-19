@@ -156,7 +156,7 @@
 
     <section id="HomeMS_Section4" style="position:relative" >
         <div class="container" style="padding-top:100px; padding-left: 150px;">
-            <div class="col-lg-8 col-lg-offset-1" style="color: #fffff !important">
+            <div class="col-lg-8 col-lg-offset-1" style="color: #ffffff !important">
                     <h2 ><center>The main focus of the RISE program is the student research training effort</center></h2>
                     <p> Aside from the advising provided by the RISE trainee's home department, the RISE
                      program will provide advising, informally by the faculty mentor and other members of
