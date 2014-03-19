@@ -56,8 +56,7 @@
                             <div class="item ">
                                 <img src="img/filler2.jpg" alt="Beach" class ="img-responsive">
                                 <div class ="carousel-caption">
-                                    <div class="row">
-                                    </div>
+                                    
                                     <div class="Mbrs_ImgContainter">
                                         <img src="img/Symposium.png">
                                     </div>
