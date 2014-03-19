@@ -23,9 +23,10 @@
 
 </head>
 
+
 <body id="page-top" data-spy="scroll" data-target=".navbar-custom">
 
-<?php include 'mbrsnav.html'; ?>
+<?php include 'marcnav.html'; ?>
 <div id="about"class="panel panel-default container-fluid" style="background-color: #c5960c; padding-bottom:30px">
         <div class="panel-heading" >
             <center style="font-size: 45px; color: #daa520"><b>Eligibility</b></center>

@@ -511,6 +511,20 @@ of all the changes it causes to the carousel */
     -o-background-size: cover;
 
 }
+#Mbrs_Faculty
+{
+    
+    display: table;
+    width: 100%;
+    height: auto;
+    
+    
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
 
 .thumbnail-list {
   list-style: none;
@@ -537,8 +551,10 @@ of all the changes it causes to the carousel */
 
 .image-w img {
   display: block;
-  width: 180px;
-  height: 250px;
+  /*width: 180px;*/
+  width:auto;
+  /*height: 250px;*/
+  height: auto;
 }
 
 .cover {
@@ -590,7 +606,9 @@ of all the changes it causes to the carousel */
 .image-w img {
   display: block;
   width: 180px;
+ 
   height: 250px;
+
 }
 
 .cover {
@@ -654,47 +672,51 @@ of all the changes it causes to the carousel */
   right: 0% !important;
   left: 0% !important;
 }
-.Mbrs_captionPos .glyphicon
+.Mbrs_captionPos 
 {
+  z-index: 10;
   
   margin-bottom: 70px;
-
 }
 .Mbrs_IntroTextStyle
 {
-  color: black !important;
+  color: #DAA520 !important;
   font-weight: bolder !important;
   font-size: 80px;
 }
 .Mbrs_ImgContainter
 {
   z-index: 10;
-  float: left;
-  right: 15%;
+  margin-top: 10%;
+  right: 20%;
   position: relative;
-  
-  width: auto;
+  float: right;
+  width: 100px;
 }
-.Mbrs_CaraDesContainer
+.carousel-caption .Mbrs_CaraDesContainer
 {
   z-index: 10;
-  
+  padding: 20px;
   margin-bottom:auto;
-  margin-bottom: 160px;
+  margin-bottom: 140px;
   background-color: white;
+  border-radius: 20%;
   opacity: .4;
-  width: 300px;
-
-  height: 300px;
+  width: 40%;
   
+  height: 40%;
 }
+
 .Mbrs_CaraDesText
 {
 
+  z-index: 11;
+  color: #000000 !important;
 }
 .Marc_IntroTextStyle
 {
-  color: black !important;
+
+  color: #DAA520 !important;
   font-weight: bolder !important;
   font-size: 80px;
 }
@@ -835,8 +857,11 @@ of all the changes it causes to the carousel */
   -ms-transition: right 0.3s ease;
   transition: right 0.3s ease;
 }
-
-
+/*Changing the color of the nav bar on mbrs and marcustar page on carousel*/
+.Color_nav
+{
+  color: #DAA520 !important;
+}
 /*media queries*/
 
 @media (max-width: 1199px)
@@ -947,4 +972,35 @@ of all the changes it causes to the carousel */
       
       font-size: 22px;
     }
+}
+.our_team_title{
+    width: 1170px;
+    padding-top: 50PX; 
+    text-align: center;
+}
+
+.rise-faculty-list{
+    margin-left: 10px;
+}
+
+.faculty-rank{
+    color:#7575FF;
+}
+
+.faculty-name a:link{
+    color:rgba(0, 41, 88, 0.901961);
+    font-weight: bold;
+}
+.faculty-name a:visited{
+    text-decoration: none;
+}
+.faculty-name a:hover{
+    text-decoration: none;
+}
+.faculty-name a:active{
+    text-decoration: none;
+}
+
+#Mbrs_Faculty_Title{
+  margin-top: 50px
 }
