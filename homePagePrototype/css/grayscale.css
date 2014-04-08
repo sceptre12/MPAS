@@ -469,6 +469,22 @@ body {
     background-color: rgba(0, 41, 88, 0.901961);
 
 }
+#HomeMS_Section5
+{
+    padding-bottom: 100px;
+    height: 560px;
+    width: 100%;
+    background-color: rgba(0, 41, 88, 0.901961);
+
+}
+#HomeMS_Section6
+{
+    padding-bottom: 100px;
+    height: 560px;
+    width: 100%;
+    background-color: rgba(0, 41, 88, 0.901961);
+
+}
 /*I'm still in testing mode for this because
 of all the changes it causes to the carousel */
 #Mbrs_Section1
