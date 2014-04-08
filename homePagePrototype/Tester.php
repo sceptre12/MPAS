@@ -11,7 +11,7 @@
 
     <!-- Bootstrap Core CSS -->
     <script type="text/javascript" src="jquery.js"></script>
-    <!-- <link href="dist/bootstrap.min.css" rel="stylesheet" type="text/css"> -->
+    <link href="dist/bootstrap.min.css" rel="stylesheet" type="text/css">
     <!-- Fonts -->
     <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
@@ -32,57 +32,60 @@
         <div class="intro-body">
             <div class="row" id="HomeMS_Sec1_Title">
                 <div class="container">
-                    <center id="HomeMS_Title"><style type="text/css" ></style>Minority Opportunites in Biomedical Research Programs</center>
+                    <center id="HomeMS_Title">Minority Opportunites in Biomedical Research Programs</center>
                     
                 </div>
-        </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <h1 class="brand-heading">Welcome</h1>
-                            <div class="row">
-                                <div class="col-md-4">
-                                    <div class="HomeMS_Sect1_ButtAlign">
-                                        <center> 
-                                            <div class="images">
-                                                <div class="mbrs crop">
-                                                    <div class="left image"></div>
-                                                    <div class="right image"></div>
-                                                    <div class="content"><a href="mbrs.php"><button class="btn btn-info">Enter</button></a></div>
+            </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h1 class="brand-heading">Welcome</h1>
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="HomeMS_Sect1_ButtAlign">
+                                            <center> 
+                                                <div class="images">
+                                                    <div class="mbrs crop">
+                                                        <div class="left image"></div>
+                                                        <div class="right image"></div>
+                                                        <div class="content">
+                                                            <button class="btn btn-info"><a href="mbrs.php">Enter</a></button>
+                                                        </div>
+                                                    </div>
                                                 </div>
-                                            </div>
-                                                
-                                         </center>
-                                    </div>
-                                </div>
-                                <div class="col-md-4">
-                                    <p class="intro-text">MBRS &amp; MARC U*Star HomePage</p>
-                                </div>
-                                    
-                                <div class="col-md-4">
-                                    <div class="HomeMS_Sect1_ButtAlign">
-                                        <center> 
-                                            <div class="images">
-                                                <div class="mbrs crop">
-                                                    <div class="left image"></div>
-                                                    <div class="right image"></div>
-                                                    <div class="content"><a href="MarcUStar.php"><button class="btn btn-info">Enter</button></a></div>
-                                                </div>
-                                            </div>
-                                        </center>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-12" style="margin-top: -80px; padding-bottom:10px">
-                                    
-                                        <div class="page-scroll">
-                                            <a href="#about" class="btn-circle">
-                                                <i class="fa fa-angle-double-down animated"></i>
-                                            </a>
+                                                    
+                                             </center>
                                         </div>
-                                </div>   
-                            </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <p class="intro-text">MBRS &amp; MARC U*Star HomePage</p>
+                                    </div>
+                                        
+                                    <div class="col-md-4">
+                                        <div class="HomeMS_Sect1_ButtAlign">
+                                            <center> 
+                                                <div class="images">
+                                                    <div class="mbrs crop">
+                                                        <div class="left image"></div>
+                                                        <div class="right image"></div>
+                                                        <div class="content"><button class="btn btn-info"><a href="MarcUStar.php">Enter</a></button></div>
+                                                    </div>
+                                                </div>
+                                            </center>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12" style="margin-top: -80px; padding-bottom:10px">
+                                        
+                                            <div class="page-scroll">
+                                                <a href="#about" class="btn-circle">
+                                                    <i class="fa fa-angle-double-down animated"></i>
+                                                </a>
+                                            </div>
+                                    </div>   
+                                </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -155,7 +158,7 @@
             </li>
             <li>
                 <div class="page-scroll">
-                <a href=".info"data-type="bio3" class="link image-w">
+                <a href=".info" data-type="bio3" class="link image-w">
                     <img alt="thumbnail" src="img/MBRS_Contacts/program_coordinator.JPG" style = "width:190px; height:270px"/>
                     <div class="cover">
                         <h3>MBRS Program Coordinator</h3>
@@ -201,13 +204,13 @@
 <div class="container" id="bottom" style="background-color:#c5960c;">
         <div id="profiles" class="info">
             <div id="bio1" class="hide">
-                <div class="biopic"><img src="img/MBRS_Contacts/program_director.png" width="250" height="350"></div>
+                <div class="biopic"><img alt="No Content" src="img/MBRS_Contacts/program_director.png" width="250" height="350"></div>
                 <div class="biostext">
                     <ul>
-                        <strong><h1>Robert Lickliter</h1></strong>
-                        <strong><p>MBRS Program Director, PhD</p></strong>
+                        <strong><h1>Robert Lickliter</h1>
+                        <p>MBRS Program Director, PhD</p></strong>
                         <li>Room: OE 165B</li>  
-                        <li>Post-doc in Developmental Psychobiology, University of North Carolina- Greensboro</p>
+                        <li>Post-doc in Developmental Psychobiology, University of North Carolina- Greensboro</li>
                         <li>Ph.D. Animal Behavior/ Psychobiology University of California at Davis</li>
                         <li>M.S. Human Development University of California at Davis</li>
                         <li>B.S. Human Development University of California at Davis</li>
@@ -289,8 +292,7 @@
     <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
 
     <!-- Google Maps API Key - You will need to use your own API key to use the map feature -->
-    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script>
-
+    
     <!-- Custom Theme JavaScript -->
     <script src="js/grayscale.js"></script>
 

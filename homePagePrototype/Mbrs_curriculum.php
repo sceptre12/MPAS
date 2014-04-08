@@ -36,7 +36,7 @@
                     <div >
                         <!-- I need to fix the title - Xavier...Implemented
                                 seems fine(Daryl)-->
-                            <center id="HomeMS_Title"><style type="text/css" ></style>MBRS</center>
+                            <center id="HomeMS_Title">MBRS</center>
                     </div>
                 </div>
             </div>
@@ -62,6 +62,7 @@
                     </div>
                 </div>
             </div>
+        </div>    
     </section>
     
     <section class ="divider">
@@ -110,29 +111,31 @@
         <div class="container" style="padding-top:60px; padding-left: 150px;">
             
               <div class="col-lg-5 col-lg-offset-1 " style="color:white; font-size:20px">
-                    
-                        <li>Orientation to the MBRS RISE Program</li>
-                        <li>MBRS RISE Lab Orientation</li>
-                        <li>Responsible Conduct of Research</li>
-                        <li>Library Searches &amp; Databases</li>
-                        <li>CPR/AED Certification</li>
-                        <li>First Aid Certification</li>
-                        <li>Fire Safety Training</li>
-                        <li>Scientific Concept Mapping</li>
-                        <li>Writing a Winning Personal Statement</li> 
-                        <li>CV/Resume Workshop</li>
-                        <li>Interviewing Skills</li>      
-                        <li>Summer Research Programs Open House</li>
+                        <ol>
+                            <li>Orientation to the MBRS RISE Program</li>
+                            <li>MBRS RISE Lab Orientation</li>
+                            <li>Responsible Conduct of Research</li>
+                            <li>Library Searches &amp; Databases</li>
+                            <li>CPR/AED Certification</li>
+                            <li>First Aid Certification</li>
+                            <li>Fire Safety Training</li>
+                            <li>Scientific Concept Mapping</li>
+                            <li>Writing a Winning Personal Statement</li> 
+                            <li>CV/Resume Workshop</li>
+                            <li>Interviewing Skills</li>      
+                            <li>Summer Research Programs Open House</li>
+                        </ol>
               </div>
               <div class="col-lg-5 " style="color:white; font-size:20px">
-                        
-                        <li>Post-Baccalaureate Programs Open House</li> 
-                        <li>Writing and Reading a Scientific Paper</li>
-                        <li>How to Construct a Scientific Poster</li> 
-                        <li>How NIH Can Fund Your Career from the Undergraduate to the Professorship</li> 
-                        <li>Finding &amp; Being a Good Mentor</li>
-                        <li>Meet &amp; Greets with Recruiters from the Nation’s Top Biomedical Programs, i.e.  
-                            <br> MIT, Mayo Clinic, Baylor, Vanderbilt</li>
+                        <ol>
+                            <li>Post-Baccalaureate Programs Open House</li> 
+                            <li>Writing and Reading a Scientific Paper</li>
+                            <li>How to Construct a Scientific Poster</li> 
+                            <li>How NIH Can Fund Your Career from the Undergraduate to the Professorship</li> 
+                            <li>Finding &amp; Being a Good Mentor</li>
+                            <li>Meet &amp; Greets with Recruiters from the Nation’s Top Biomedical Programs, i.e.  
+                                <br> MIT, Mayo Clinic, Baylor, Vanderbilt</li>
+                        </ol>
               </div>
            <!--  </div> -->
         </div>    
@@ -154,10 +157,10 @@
         </div>
     </div>
 
-    <section id="HomeMS_Section4" style="position:relative" >
+    <section id="HomeMS_Section5" style="position:relative" >
         <div class="container" style="padding-top:100px; padding-left: 150px;">
             <div class="col-lg-8 col-lg-offset-1" style="color: #ffffff !important">
-                    <h2 ><center>The main focus of the RISE program is the student research training effort</center></h2>
+                    <center><h2 >The main focus of the RISE program is the student research training effort</h2></center>
                     <p> Aside from the advising provided by the RISE trainee's home department, the RISE
                      program will provide advising, informally by the faculty mentor and other members of
                       the lab and formally by the RISE Program Coordinator and RISE Program Director.

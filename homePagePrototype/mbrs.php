@@ -154,42 +154,42 @@ aegypti
                     <b><center>15th Annual Biomedical &amp; Comparative Immunology (BCI) Symposium,
                     February 13 &amp; 14th, 2014
                     <br><br>Please click below to Register<br>
-                    <a href="https://www.eventbrite.com/e/16th-annual-biomedical-and-comparative-immunology-symposium-tickets-10083011559?ref=ebtnebregn"><button type="button" style="background-color: rgba(0, 41, 88, 0.901961); border-color: #000000;"class="btn btn-info">Click Me</button></a>
+                    <button type="button" style="background-color: rgba(0, 41, 88, 0.901961); border-color: #000000;" class="btn btn-info"><a href="https://www.eventbrite.com/e/16th-annual-biomedical-and-comparative-immunology-symposium-tickets-10083011559?ref=ebtnebregn">Click Me</a></button>
                     </center></b>
                 </div>
                 <div class="col-sm-6">
                     <div class = "row" >
                             <div class="col-sm-12">
-                                <u><b><center>MBRS RISE PROGRAM NOW ACCEPTING APPLICATIONS</center></b></u>
+                                <center><u><b>MBRS RISE PROGRAM NOW ACCEPTING APPLICATIONS</b></u></center>
                             </div>
                     </div>
                     <div class="row">
                             <div class="col-md-6">
-                                <b><center>Graduate Application Deadline<br>
+                                <center><b>Graduate Application Deadline<br>
                                 January 31st, 2014</b>
                                 <br>
-                                <a href="http://mbrs.fiu.edu/rise/application.shtml"><button type="button" style="background-color: rgba(0, 41, 88, 0.901961); border-color: #000000;" class="btn btn-info">Sign Up</button></a></center>
+                                <button type="button" style="background-color: rgba(0, 41, 88, 0.901961); border-color: #000000;" class="btn btn-info"><a href="http://mbrs.fiu.edu/rise/application.shtml">Sign Up</a></button></center>
                             </div>
                             <div class="col-md-6">
-                                <b><center>Undergraduate Application Deadline
+                                <center><b>Undergraduate Application Deadline
                                 <br>February 28,2014</b><br>
-                                <a href="http://mbrs.fiu.edu/rise/application.shtml"><button type="button" style="background-color: rgba(0, 41, 88, 0.901961); border-color: #000000;" class="btn btn-info">Sign Up</button></a></center><br>
+                                <button type="button" style="background-color: rgba(0, 41, 88, 0.901961); border-color: #000000;" class="btn btn-info"><a href="http://mbrs.fiu.edu/rise/application.shtml">Sign Up</a></button></center><br>
                             </div>
                             <div class="row">
                                 <div class="col-md-12">
-                                    <b><center>For More News &amp; Events Please click below<br>
-                                    <a href="http://mbrs.fiu.edu/rise/application.shtml"><button type="button" style="background-color: rgba(0, 41, 88, 0.901961); border-color: #000000;" class="btn btn-info">Sign Up</button></a></center></b>
+                                    <center><b>For More News &amp; Events Please click below<br>
+                                    <button type="button" style="background-color: rgba(0, 41, 88, 0.901961); border-color: #000000;" class="btn btn-info"><a href="http://mbrs.fiu.edu/rise/application.shtml">Sign Up</a></button></b></center>
                                 </div>
                             </div>
                     </div>
                 </div>
                 <div class="col-sm-3">
-                            <b><center>MBRS RISE Biomedical Research Initative (BRI) 2014 FIU Student Summer Research Awards
+                            <center><b>MBRS RISE Biomedical Research Initative (BRI) 2014 FIU Student Summer Research Awards
                                 <br><br>Applications Due by<br>
                             Friday, March 7th, 2014 at 5pm
                             <br>For more information click below</b>
                             <br>
-                            <a href="http://mbrs.fiu.edu/docs/2014%20BRI%20Application%20Guidelines.pdf"><button type="button" style="background-color: rgba(0, 41, 88, 0.901961); border-color: #000000;"class="btn btn-info"> Click Me</button></a></center>
+                            <button type="button" style="background-color: rgba(0, 41, 88, 0.901961); border-color: #000000;" class="btn btn-info"><a href="http://mbrs.fiu.edu/docs/2014%20BRI%20Application%20Guidelines.pdf"> Click Me</a></button></center>
                 </div>
             </div>
         </div>
@@ -211,7 +211,7 @@ aegypti
                 
                 <div class="row" style="background-color: #c5960c; ">
                     <div class="gloss">
-                    <div id="Mbrs-padding"class="col-lg-12" >
+                    <div id="Mbrs-padding" class="col-lg-12" >
                        
                         <center>
                 <p >The Minority Biomedical Research Support Research Initiative for Scientific
@@ -229,8 +229,8 @@ groups to support research by faculty members, strengthen the institutions' biom
 cal research capabilities and provide opportunities for students to work as part of a
 research team. The FIU MBRS RISE Program provides graduate and undergraduate students compensation for a yearlong work obligation in a laboratory conducting biomedical research. Sponsored by the National Institutes of Health (NIH), the MBRS RISE Program is dedicated to increasing the number of undergraduate and graduate students from underrepresented groups in biomedical and behavioral research to enter into and successfully complete M.D./Ph.D. or Ph.D.
 programs. Research travel funds are available for the MBRS RISE students to attend scientific meetings and conferences. The program also provides a tuition-waiver for graduate students. 
-Other training includes: special skills &amp; professional development workshops as well as academic advisement. Undergraduate students may apply during their freshman, sophomore or junior years for participation in the program from the time of acceptance through their senior year. Graduate students may apply at any point during their FIU graduate program.</center>
- </p> 
+Other training includes: special skills &amp; professional development workshops as well as academic advisement. Undergraduate students may apply during their freshman, sophomore or junior years for participation in the program from the time of acceptance through their senior year. Graduate students may apply at any point during their FIU graduate program. </p> </center>
+
                     </div>
                 </div>
             </div>

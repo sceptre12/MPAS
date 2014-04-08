@@ -62,9 +62,9 @@
                                     </div>
                                     <div class="Mbrs_CaraDesContainer">
                                         <div class="Mbrs_CaraDesText">
-                                            <center><b><h3>MBRS MINI
+                                            <center><h3><b>MBRS MINI
             -
-            SYMPOSIUM</h3></b></center> <br>
+            SYMPOSIUM</b></h3></center> <br>
             1st Place Undergraduate Students Presentation
             —
             <b>Ruslan Garcia</b>,<br>
@@ -159,7 +159,7 @@
                 <div class="col-sm-6">
                     <div class = "row" >
                             <div class="col-sm-12">
-                                <u><center><b>Marc U*Star PROGRAM NOW ACCEPTING APPLICATIONS</b></center></u>
+                                <center><u><b>Marc U*Star PROGRAM NOW ACCEPTING APPLICATIONS</b></u></center>
                             </div>
                     </div>
                     <div class="row">
