@@ -62,9 +62,9 @@
                                     </div>
                                     <div class="Mbrs_CaraDesContainer">
                                         <div class="Mbrs_CaraDesText">
-                                            <b><center><h3>MBRS MINI
+                                            <center><b><h3>MBRS MINI
             -
-            SYMPOSIUM</h3></center></b> <br>
+            SYMPOSIUM</h3></b></center> <br>
             1st Place Undergraduate Students Presentation
             —
             <b>Ruslan Garcia</b>,<br>
@@ -150,45 +150,45 @@
             </div>
             <div class="row">
                 <div class="col-sm-3">
-                    <b><center>15th Annual Biomedical &amp; Comparative Immunology (BCI) Symposium,
+                    <center><b>15th Annual Biomedical &amp; Comparative Immunology (BCI) Symposium,
                     February 13 &amp; 14th, 2014
                     <br><br>Please click below to Register<br>
-                    <a href="https://www.eventbrite.com/e/16th-annual-biomedical-and-comparative-immunology-symposium-tickets-10083011559?ref=ebtnebregn"><button type="button" style="background-color: rgba(0, 41, 88, 0.901961); border-color: #000000;"class="btn btn-info">Click Me</button></a>
-                    </center></b>
+                    <button type="button" style="background-color: rgba(0, 41, 88, 0.901961); border-color: #000000;" class="btn btn-info"><a href="https://www.eventbrite.com/e/16th-annual-biomedical-and-comparative-immunology-symposium-tickets-10083011559?ref=ebtnebregn">Click Me</a></button>
+                    </b></center>
                 </div>
                 <div class="col-sm-6">
                     <div class = "row" >
                             <div class="col-sm-12">
-                                <u><b><center>Marc U*Star PROGRAM NOW ACCEPTING APPLICATIONS</center></b></u>
+                                <u><center><b>Marc U*Star PROGRAM NOW ACCEPTING APPLICATIONS</b></center></u>
                             </div>
                     </div>
                     <div class="row">
                             <div class="col-md-6">
-                                <b><center>Graduate Application Deadline<br>
+                                <center><b>Graduate Application Deadline<br>
                                 January 31st, 2014</b>
                                 <br>
-                                <a href="http://mbrs.fiu.edu/marcustar/application.shtml"><button type="button" style="background-color: rgba(0, 41, 88, 0.901961); border-color: #000000;" class="btn btn-info">Sign Up</button></a></center>
+                                <button type="button" style="background-color: rgba(0, 41, 88, 0.901961); border-color: #000000;" class="btn btn-info"><a href="http://mbrs.fiu.edu/marcustar/application.shtml">Sign Up</a></button></center>
                             </div>
                             <div class="col-md-6">
-                                <b><center>Undergraduate Application Deadline
-                                <br>February 28,2014</b><br>
-                                <a href="http://mbrs.fiu.edu/marcustar/application.shtml"><button type="button" style="background-color: rgba(0, 41, 88, 0.901961); border-color: #000000;" class="btn btn-info">Sign Up</button></a></center><br>
+                                <center><b>Undergraduate Application Deadline
+                                <br>February 28,2014<br></b>
+                                <button type="button" style="background-color: rgba(0, 41, 88, 0.901961); border-color: #000000;" class="btn btn-info"><a href="http://mbrs.fiu.edu/marcustar/application.shtml">Sign Up</a></button></center><br>
                             </div>
                             <div class="row">
                                 <div class="col-md-12">
-                                    <b><center>For More News &amp; Events Please click below<br>
-                                    <a href="bootstrap-calendar/index.html"><button type="button" style="background-color: rgba(0, 41, 88, 0.901961); border-color: #000000;" class="btn btn-info">Sign Up</button></a></center></b>
+                                    <center><b>For More News &amp; Events Please click below<br>
+                                    <button type="button" style="background-color: rgba(0, 41, 88, 0.901961); border-color: #000000;" class="btn btn-info"><a href="bootstrap-calendar/index.html">Sign Up</a></button></b></center>
                                 </div>
                             </div>
                     </div>
                 </div>
                 <div class="col-sm-3">
-                            <b><center>MBRS RISE Biomedical Research Initative (BRI) 2014 FIU Student Summer Research Awards
-                                <br><br>Applications Due by<br>
-                            Friday, March 7th, 2014 at 5pm
-                            <br>For more information click below</b>
+                            <center><b>MBRS RISE Biomedical Research Initative (BRI) 2014 FIU Student Summer Research Awards</b>
+                                <br><br><b>Applications Due by</b><br>
+                            <b>Friday, March 7th, 2014 at 5pm</b>
+                            <br><b>For more information click below</b>
                             <br>
-                            <a href="http://mbrs.fiu.edu/docs/2014%20BRI%20Application%20Guidelines.pdf"><button type="button" style="background-color: rgba(0, 41, 88, 0.901961); border-color: #000000;"class="btn btn-info"> Click Me</button></a></center>
+                            <button type="button" style="background-color: rgba(0, 41, 88, 0.901961); border-color: #000000;" class="btn btn-info"> <a href="http://mbrs.fiu.edu/docs/2014%20BRI%20Application%20Guidelines.pdf">Click Me</a></button></center>
                 </div>
             </div>
         </div>
@@ -210,33 +210,34 @@
                 
                 <div class="row" style="background-color: #c5960c; ">
                     <div class="gloss">
-                    <div id="Mbrs-padding"class="col-lg-12" >
-                       
-                        <center>
-                <p >FIU's MARC U*STAR program specifically targets those rising juniors (especially scholars in the QBIC program) who have indicated an interest in Biomedical or Behavioral Sciences
-research and a choice and preference in pursuing a PhD.
-To meet its goal of encouraging underrepresented minorities (URM) to continue on to
-successful biomedical or behavioral science research careers, FIU's MARC U*STAR
-program provides a focused initiative that motivates promising students to choose a
-biomedical or behavioral science career. This goal is important because many students
-do not know what biomedical research really is or how exciting and rewarding it can be.
-By spending the first two academic years in FIU's Q`BIC program and gaining an
-integrative and quantitative science foundation, by participating in the planned
-simulation and modeling workshop, and by being a MARC U*STAR Fellow working in an
-active research lab, participants will be in environments and exposed to information
-that will help demystify biomedical and behavioral science research. The final critical
-issue is to insure that the motivated student with potential is given the necessary tools
-and skills to be competitive and the opportunity to succeed. The academic and
-research components of FIU's MARC U*STAR program provide these tools and skills. The
-MARC U*STAR Program at FIU will help excellent URM continue on to successful careers in biomedical or behavioral sciences research.
-</p> 
+                        <div id="Mbrs-padding" class="col-lg-12" >
+                           
+                            <center>
+                    <p >FIU's MARC U*STAR program specifically targets those rising juniors (especially scholars in the QBIC program) who have indicated an interest in Biomedical or Behavioral Sciences
+    research and a choice and preference in pursuing a PhD.
+    To meet its goal of encouraging underrepresented minorities (URM) to continue on to
+    successful biomedical or behavioral science research careers, FIU's MARC U*STAR
+    program provides a focused initiative that motivates promising students to choose a
+    biomedical or behavioral science career. This goal is important because many students
+    do not know what biomedical research really is or how exciting and rewarding it can be.
+    By spending the first two academic years in FIU's Q`BIC program and gaining an
+    integrative and quantitative science foundation, by participating in the planned
+    simulation and modeling workshop, and by being a MARC U*STAR Fellow working in an
+    active research lab, participants will be in environments and exposed to information
+    that will help demystify biomedical and behavioral science research. The final critical
+    issue is to insure that the motivated student with potential is given the necessary tools
+    and skills to be competitive and the opportunity to succeed. The academic and
+    research components of FIU's MARC U*STAR program provide these tools and skills. The
+    MARC U*STAR Program at FIU will help excellent URM continue on to successful careers in biomedical or behavioral sciences research.
+    </p> </center>
 
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
+
 </section>
 
     <?php include "footer.html"; ?>
