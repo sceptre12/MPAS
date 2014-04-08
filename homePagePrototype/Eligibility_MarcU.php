@@ -27,7 +27,7 @@
 <body id="page-top" data-spy="scroll" data-target=".navbar-custom">
 
 <?php include 'marcnav.html'; ?>
-<div id="about"class="panel panel-default container-fluid" style="background-color: #c5960c; padding-bottom:30px">
+<div id="about" class="panel panel-default container-fluid" style="background-color: #c5960c; padding-bottom:30px">
         <div class="panel-heading" >
             <center style="font-size: 45px; color: #daa520"><b>Eligibility</b></center>
         </div>
@@ -36,25 +36,28 @@
         <div class="about-us" >
             <div class="container">
                 <div class="col-lg-5 col-lg-offset-1 " style="color:white; font-size:20px">
-                        <h2><center>Requirements</center></h2>
-                        <li>Possess Underrepresented Minority Status</li>
-                        <li>Beginning Junior Year 
-                        <p>(Completed approximately 60-65 credits)</p></li>
-                        <li>GPA 3.3 or Higher</li>
-                        <li>Must be a U.S. Citizen or Permanent Resident</li>
-                        <li>Enrolled Full time at FIU in the Natural Sciences, Physical Sciences or Behavioral Psychology</li>
-                        <li>Have a strong desire to pursue a career in biomedical or behavioral sciences research (Ph.D. or M.D. /Ph.D.)</li>
-                        
+                        <center><h2>Requirements</h2></center>
+                        <ol>
+                            <li>Possess Underrepresented Minority Status</li>
+                            <li>Beginning Junior Year 
+                            <p>(Completed approximately 60-65 credits)</p></li>
+                            <li>GPA 3.3 or Higher</li>
+                            <li>Must be a U.S. Citizen or Permanent Resident</li>
+                            <li>Enrolled Full time at FIU in the Natural Sciences, Physical Sciences or Behavioral Psychology</li>
+                            <li>Have a strong desire to pursue a career in biomedical or behavioral sciences research (Ph.D. or M.D. /Ph.D.)</li>
+                        </ol>
               </div>
               <div class="col-lg-5 " style="color:white; font-size:20px">
-                        <h2><center>Program Benefits</center></h2>
-                        <li>Monthly Stipend</li> 
-                        <li>Tuition Waiver</li>
-                        <li>Funded Travel to National Scientific Meetings</li> 
-                        <li>Summer Research Opportunities</li> 
-                        <li>Work in Research Laboratories</li>
-                        <li>Participation in our Annual Mini-Symposium</li>
-                        <li>Participation in Special Skills Workshops</li>
+                        <center><h2>Program Benefits</h2></center>
+                        <ol>
+                            <li>Monthly Stipend</li> 
+                            <li>Tuition Waiver</li>
+                            <li>Funded Travel to National Scientific Meetings</li> 
+                            <li>Summer Research Opportunities</li> 
+                            <li>Work in Research Laboratories</li>
+                            <li>Participation in our Annual Mini-Symposium</li>
+                            <li>Participation in Special Skills Workshops</li>
+                        </ol>
               </div>
             </div>
         </div>
