@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
 
@@ -28,27 +28,24 @@
 <?php include 'navbar.html'; ?>
 
     <section class="intro">
-        
-        <div class="intro-body">
-            <div class="row" id="HomeMS_Sec1_Title">
-                <div class="container">
-                    <center id="HomeMS_Title">Minority Opportunites in Biomedical Research Programs</center>
-                    
-                </div>
+        <div class="row" id="HomeMS_Sec1_Title">
+            <div class="col-lg-12">
+                <center id="HomeMS_Title">Minority Opportunites in Biomedical Research Programs</center>
             </div>
-                <div class="container">
+        </div>
+                
                     <div class="row">
                         <div class="col-md-12">
                             <h1 class="brand-heading">Welcome</h1>
-                                <div class="row">
-                                    <div class="col-md-4">
-                                        <div class="HomeMS_Sect1_ButtAlign">
-                                            <center> 
-                                                <div class="images">
-                                                    <div class="mbrs crop">
-                                                        <div class="left image"></div>
-                                                        <div class="right image"></div>
-                                                        <div class="content">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="HomeMS_Sect1_ButtAlign">
+                                        <center> 
+                                        <div class="images">
+                                            <div class="mbrs crop">
+                                            <div class="left image"></div>
+                                            <div class="right image"></div>    
+                                                        <div class="content">        
                                                             <button class="btn btn-info"><a href="mbrs.php">Enter</a></button>
                                                         </div>
                                                     </div>
@@ -87,17 +84,15 @@
                                 </div>
                         </div>
                     </div>
-                </div>
-            </div>
+                
+            
     </section>
     
-    <section class ="divider">
-        
-    </section>
+    
 
    <section id="about" class="text-center">
-        <div class="about-us">
-            <div class="container">
+        
+            <div class="row">
                 <div class="col-lg-8 col-lg-offset-2">
                     <h2>About Us</h2>
                     <p>The FIU Minority Opportunities in Research (MORE) Program began in 1985 and has grown to include the MBRS RISE, MBRS SCORE and MARC U*STAR Programs. The FIU SCORE Program assists FIU faculty in the preparation of grant proposals and provides administrative support post-award. The RISE Program also promotes the involvement of undergraduate and graduate students in research by providing salaries for the students, tuition for graduate students, and travel funds for the students to attend scientific meetings. In a similar fashion, the MARC U*STAR Program focuses on Junior and Senior undergraduate students. The students are involved in original research and, depending on their level, are expected to present their work at professional meetings and publish their results in research journals. The FIU MORE Program also enriches FIU by bringing prominent guest speakers to campus to meet with students, cosponsoring an annual symposium and providing a clearing house for students to learn about special training programs and career opportunities in biomedical research, such as NIH internships.</p>
@@ -108,19 +103,17 @@
                     <i class="fa fa-angle-double-down animated"></i>
                 </a>
             </div>
-        </div>
+        
     </section>
 
-    <section class ="divider" >
-        <div class="row team"></div>
-    </section>    
+      
 
     <section id="HomeMS_Section4" style="position:relative; " >
- <div class="container">
-        <div class="col-sm-12">
-            <center><h1 style="color:gold">Our Team</h1></center>
-        </div>
-    </div ><!-- End of div -->
+     <div class="container">
+            <div class="col-sm-12">
+                <center><h1 style="color:gold">Our Team</h1></center>
+            </div>
+        </div ><!-- End of div -->
 
 
 
