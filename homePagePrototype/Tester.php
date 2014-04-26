@@ -84,14 +84,8 @@
                 </div>
             </div>
         </div>
-
-
     </section>
-    
-    
-
     <section id="about" class="text-center">
-
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
                 <h2>About Us</h2>
@@ -103,10 +97,7 @@
                 <i class="fa fa-angle-double-down animated"></i>
             </a>
         </div>
-        
     </section>
-
-
     <section id="HomeMS_Section4" style="position:relative; " >
         <div class="col-sm-12">
             <center><h1 style="color:gold">Our Team</h1></center>
