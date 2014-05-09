@@ -991,28 +991,42 @@
       text-align: center;
   }
 
-  .rise-faculty-list{
-      margin-left: 10px;
+  #mbrs-faculty-list{
+    overflow-y: scroll;
+    height:100%;
+    border:2px medium #a1a1a1;
+    padding:10px 40px; 
+    background:#dddddd;
+    border-radius:25px;
+    opacity: 0.8;
   }
 
-  .faculty-rank{
-      color:#7575FF;
-  }
-
-  .faculty-name a:link{
+  #mbrs-faculty-list a:link{
       color:rgba(0, 41, 88, 0.901961);
       font-weight: bold;
   }
-  .faculty-name a:visited{
+  #mbrs-faculty-list a:visited{
       text-decoration: none;
   }
-  .faculty-name a:hover{
+  #mbrs-faculty-list a:hover{
       text-decoration: none;
   }
-  .faculty-name a:active{
-      text-decoration: none;
+  #mbrs-faculty-list a:active{
+       -webkit-stroke-width: 5.3px;
+   -webkit-stroke-color: #FFFFFF;
+   -webkit-fill-color: #FFFFFF;
+   text-shadow: 1px 0px 20px red;
+   -webkit-transition: width 0.3s; /*Safari & Chrome*/
+   transition: width 0.3s;
+   -moz-transition: width 0.3s; /* Firefox 4 */
+   -o-transition: width 0.3s; /* Opera */;
   }
 
   #Mbrs_Faculty_Title{
     margin-top: 50px
   }
+
+.facultyName{
+  font-size: 2.0em;
+  color: rgba(0, 41, 88, 0.901961);
+}
